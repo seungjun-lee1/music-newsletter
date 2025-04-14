@@ -1,42 +1,54 @@
+
 <!DOCTYPE html>
- <html>
- <head>
-     <meta charset="UTF-8">
-     <title>지난 뉴스 아카이브</title>
-     <style>
-         body {
-             font-family: 'Inter', sans-serif;
-             padding: 40px;
-             max-width: 800px;
-             margin: auto;
-         }
-         h1 {
-             font-size: 2rem;
-             margin-bottom: 20px;
-         }
-         ul {
-             list-style: none;
-             padding: 0;
-         }
-         li {
-             margin-bottom: 8px;
-         }
-         a {
-             text-decoration: none;
-             color: #2b4cb3;
-         }
-         a:hover {
-             text-decoration: underline;
-         }
-     </style>
- </head>
- <body>
-     <nav class="gnb">
-      <a href="index.html">🏠 홈</a>
-      <a href="archive.html">📁 데일리 아카이브</a>
-      <a href="#category-links">📚 카테고리 (공사중)</a>
-     </nav>
-     <style>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>지난 뉴스 아카이브</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9f9f9;
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .archive-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .entry-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            transition: all 0.2s ease;
+        }
+        .entry-card:hover {
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+        .entry-card a {
+            text-decoration: none;
+            color: #2b4cb3;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+    </style></head>
+<body>
+    <nav class="gnb">
+      <a href="/music-newsletter/">🏠 홈</a>
+      <a href="/music-newsletter/archive.html">📁 데일리 아카이브</a>
+      <a href="/music-newsletter/category.html">📚 카테고리</a>
+    </nav>
+    <style>
       .gnb {
         position: sticky;
         top: 0;
@@ -55,12 +67,13 @@
       .gnb a:hover {
         text-decoration: underline;
       }
-     </style>
-     <h1>🗂 지난 뉴스 아카이브</h1>
-     <ul>
-         <li><a href='news/2025-04-13.html'>2025-04-13</a></li>
- 
-     </ul>
- </body>
- </html>
+    </style>
 
+    <h1>🗂 데일리 아카이브 - 지난 뉴스</h1>
+    <ul>
+        <li><a href='news/2025-04-14.html'>2025-04-14</a></li>
+<li><a href='news/2025-04-13.html'>2025-04-13</a></li>
+
+    </ul>
+</body>
+</html>
