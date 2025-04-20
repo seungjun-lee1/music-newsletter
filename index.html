@@ -15,10 +15,12 @@
             margin: 0px;
         }
         header {
+          max-width: 900px;
+          margin: auto;
           position: sticky;
           top: 0;
           background: #fff;
-          padding: 20px 40px 10px;
+          padding: 20px;
           box-shadow: 0 2px 8px rgba(0,0,0,0.05);
           z-index: 100;
         }
@@ -88,6 +90,41 @@
         }
         .article a:hover {
             text-decoration: underline;
+        }
+        .nav-wrapper {
+          max-width: 900px;
+          margin: auto;
+          position: relative;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          padding: 10px 0;
+          background: #fff;
+        }
+        
+        .nav-wrapper button {
+          background: #f0f0f0;
+          border: none;
+          border-radius: 6px;
+          padding: 6px 10px;
+          font-size: 16px;
+          cursor: pointer;
+          transition: background 0.2s;
+        }
+        .nav-wrapper button:hover {
+          background: #e0e0e0;
+        }
+        
+        #category-nav {
+          flex: 1;
+          display: flex;
+          overflow-x: auto;
+          gap: 20px;
+          scrollbar-width: none;
+          -ms-overflow-style: none;
+        }
+        #category-nav::-webkit-scrollbar {
+          display: none;
         }
         footer {
             margin-top: 60px;
@@ -161,183 +198,153 @@
     </style>
 </head>
 <body>
-
-<nav class="gnb">
-  <a href="/music-newsletter/index.html">🏠 오늘의 뉴스</a>
-  <a href="/music-newsletter/archive.html">📁 일자 별 아카이브</a>
-  <a href="/music-newsletter/category.html">📚 카테고리 별 아카이브</a>
-</nav>
-<style>
-  .gnb {
-    position: sticky;
-    top: 0;
-    background: #fff;
-    padding: 1rem 2rem;
-    border-bottom: 1px solid #ddd;
-    display: flex;
-    gap: 2rem;
-    font-weight: bold;
-    z-index: 1000;
-  }
-  .gnb a {
-    text-decoration: none;
-    color: #2b4cb3;
-  }
-  .gnb a:hover {
-    text-decoration: underline;
-  }
-</style>
-
     <header>
     <h1>🎵 오늘의 글로벌 음악 산업 뉴스 (2025-04-20)</h1>
-    <nav id="category-nav">
-    <!--
-    <div id='toggle-button'>☰</div>
-    <div id="sidebar">
-    -->
+    <div class="nav-wrapper">
+        <button id="scroll-left">◀</button>
+        <nav id="category-nav">
+          <!--
+            <div id='toggle-button'>☰</div>
+            <div id="sidebar">
+          -->
     <a href='#k-pop_music_industry'>K-pop Music Industry</a><a href='#india_music_industry'>India Music Industry</a><a href='#industry_leadership_changes'>Industry Leadership Changes</a><a href='#financial_developments,_mergers_and_acquisitions'>Financial Developments, Mergers and Acquisitions</a><a href='#legal_and_copyright_matters'>Legal and Copyright Matters</a><a href='#technological_initiatives'>Technological Initiatives</a><a href='#market_insights'>Market Insights</a><a href='#music_industry'>Music Industry</a><a href='#live_entertainment'>Live Entertainment</a>
         </nav>
-      </header>
+        <button id="scroll-right">▶</button>
+      </div>
+    </header>
     <main>
     <h2 id='k-pop_music_industry'>📰 K-pop Music Industry</h2>
             <div class="article">
-                <h3>제목: LE SSERAFIM, 트와이스와 모건 월렌, 화려한 협업으로 뭉쳤다 | 알아두어야 할 음악 | 빌보드 뉴스</h3>
-                <p><strong>날짜:</strong> 2025-04-19</p>
-                <p><strong>요약:</strong> LE SSERAFIM은 Jade와 협업하고, TWICE는 Coldplay와 함께 작업했으며, Morgan Wallen은 Post Malone과 다시 한 번 손을 잡았습니다. 이번 주에 공개된 가장 핫한 음악 콜라보레이션을 소개합니다. 이러한 협업들은 각 아티스트의 음악적 색깔을 더욱 풍부하게 만들어주며, 팬들에게 새로운 즐거움을 선사할 것으로 기대됩니다.</p>
-                <p><strong>링크:</strong> <a href="https://www.billboard.com/video/le-sserafim-twice-morgan-wallen-team-up-epic-collabs/" target="_blank">https://www.billboard.com/video/le-sserafim-twice-morgan-wallen-team-up-epic-collabs/</a></p>
+                <h3>제목: '헤븐리 에버 애프터'에서 한지민, 손석구와 포옹하며 김혜자에게 질투 유발</h3>
+                <p><strong>날짜:</strong> 2025-04-20</p>
+                <p><strong>요약:</strong> JTBC의 새로운 로맨스 드라마 "Heavenly Ever After"에서는 Han Ji Min이 Son Suk Ku를 포옹하면서 Kim Hye Ja의 질투를 유발하는 장면이 그려집니다. 이 드라마는 사후 세계에서 남편과 재회한 여성 Lee Hae Sook(김혜자 분)의 이야기를 중심으로 전개되며, 다른 천국의 주민들과는 다른 특별한 관계를 보여줍니다. 이러한 설정은 사후 세계에 대한 새로운 시각을 제공하며, 캐릭터 간의 복잡한 감정선을 통해 시청자들에게 흥미로운 관전 포인트를 제공합니다.</p>
+                <p><strong>링크:</strong> <a href="https://www.soompi.com/article/1738123wpp/han-ji-min-embraces-son-suk-ku-makes-kim-hye-ja-jealous-in-heavenly-ever-after" target="_blank">https://www.soompi.com/article/1738123wpp/han-ji-min-embraces-son-suk-ku-makes-kim-hye-ja-jealous-in-heavenly-ever-after</a></p>
             </div>
             
             <div class="article">
-                <h3>제목: 티아라 하민정과 서준영, 곧 방영될 복수 드라마 '퀸스 하우스'에 대해 이야기하다</h3>
-                <p><strong>날짜:</strong> 2025-04-19</p>
-                <p><strong>요약:</strong> T-ara의 Hahm Eun Jung과 Seo Jun Young이 출연하는 새로운 KBS 복수 드라마 “Queen’s House”에 대해 이야기했습니다. 이 드라마는 완벽한 삶을 살고 있다고 믿었던 주인공 Kang Jae In(Hahm Eun Jung)이 모든 것을 잃고 이를 되찾기 위해 끈질기게 싸우는 이야기를 그립니다. 두 배우는 이 드라마가 복수와 회복의 과정을 통해 시청자들에게 강렬한 감정과 메시지를 전달할 것이라고 밝혔습니다.</p>
-                <p><strong>링크:</strong> <a href="https://www.soompi.com/article/1738087wpp/t-aras-hahm-eun-jung-and-seo-jun-young-dish-on-their-upcoming-revenge-drama-queens-house" target="_blank">https://www.soompi.com/article/1738087wpp/t-aras-hahm-eun-jung-and-seo-jun-young-dish-on-their-upcoming-revenge-drama-queens-house</a></p>
+                <h3>제목: 정경호, '병원선' 캐릭터로 '레지던트 플레이북'에 카메오 출연 예정</h3>
+                <p><strong>날짜:</strong> 2025-04-20</p>
+                <p><strong>요약:</strong> Jung Kyung Ho가 인기 드라마 “Hospital Playlist”에서 맡았던 캐릭터로 tvN의 새 드라마 “Resident Playbook”에 카메오로 출연할 예정입니다. “Resident Playbook”은 “Hospital Playlist”의 스핀오프로, Yulje 병원 종로 지점의 레지던트들이 겪는 현실적이고 공감 가는 병원 생활, 성장, 따뜻한 우정을 그립니다. 이번 카메오는 시청자들에게 반가운 재미를 선사하며, “Hospital Playlist” 팬들에게 특별한 의미가 있을 것으로 기대됩니다.</p>
+                <p><strong>링크:</strong> <a href="https://www.soompi.com/article/1738117wpp/jung-kyung-ho-to-make-cameo-in-resident-playbook-as-his-hospital-playlist-character" target="_blank">https://www.soompi.com/article/1738117wpp/jung-kyung-ho-to-make-cameo-in-resident-playbook-as-his-hospital-playlist-character</a></p>
             </div>
             
             <div class="article">
-                <h3>제목: 시청하세요: NCT의 마크, '뮤직 코어'에서 '1999'으로 3회 연속 1위 차지, NCT WISH, UNIS 등의 무대 공연도 함께</h3>
-                <p><strong>날짜:</strong> 2025-04-19</p>
-                <p><strong>요약:</strong> NCT의 Mark가 솔로곡 “1999”로 MBC “Music Core”에서 세 번째 음악 방송 1위를 차지했습니다. 4월 19일 방송에서 1위 후보는 LE SSERAFIM의 “HOT”, Mark의 “1999”, BLACKPINK의 Jennie의 “like JENNIE”였으며, Mark는 총점 7,159점으로 최종 우승을 거머쥐었습니다. 이번 승리는 Mark의 솔로 활동에 대한 팬들의 큰 지지와 관심을 보여주며, 앞으로의 음악 활동에 대한 기대감을 높이고 있습니다.</p>
-                <p><strong>링크:</strong> <a href="https://www.soompi.com/article/1738084wpp/watch-ncts-mark-takes-3rd-win-for-1999-on-music-core-performances-by-nct-wish-unis-and-more" target="_blank">https://www.soompi.com/article/1738084wpp/watch-ncts-mark-takes-3rd-win-for-1999-on-music-core-performances-by-nct-wish-unis-and-more</a></p>
+                <h3>제목: "Queen's House" 주연들, 비하인드 씬에서 열정과 귀여운 실제 케미스트리를 선보여</h3>
+                <p><strong>날짜:</strong> 2025-04-20</p>
+                <p><strong>요약:</strong> KBS 2TV의 새 드라마 "Queen’s House"는 촬영 현장에서 배우들의 열정과 귀여운 실제 케미를 엿볼 수 있는 장면을 공개했습니다. 이 드라마는 완벽한 삶을 가졌다고 믿었던 Kang Jae In(T-ara의 Hahm Eun Jung)이 모든 것을 잃고 이를 되찾기 위해 끈질기게 싸우는 복수극입니다. 배우들의 자연스러운 케미가 드라마의 몰입도를 높일 것으로 기대됩니다.</p>
+                <p><strong>링크:</strong> <a href="https://www.soompi.com/article/1738113wpp/queens-house-stars-display-passion-and-cute-real-life-chemistry-behind-the-scenes" target="_blank">https://www.soompi.com/article/1738113wpp/queens-house-stars-display-passion-and-cute-real-life-chemistry-behind-the-scenes</a></p>
             </div>
             <h2 id='india_music_industry'>📰 India Music Industry</h2>
             <div class="article">
                 <h3>제목: 찬드레시 쿠드와, 투어에 청소년 딸과 함께 기타를 칠 예정</h3>
                 <p><strong>날짜:</strong> 2025-04-18</p>
-                <p><strong>요약:</strong> Mumbai 출신의 기타 연주자 Chandresh Kudwa가 그의 새로운 EP ‘Through the Noise’의 곡들을 4월과 5월에 Pune, New Delhi, Mumbai, Bengaluru에서 공연할 예정입니다. 이번 투어에는 특별히 그의 십대 딸이 기타리스트로 합류하여 함께 무대에 오릅니다. 이는 가족 간의 음악적 유대감을 보여주는 동시에, 젊은 세대의 음악적 재능을 선보이는 기회가 될 것입니다.</p>
+                <p><strong>요약:</strong> Mumbai 출신의 기타 연주자 Chandresh Kudwa가 그의 새로운 EP ‘Through the Noise’의 곡들을 4월과 5월에 Pune, New Delhi, Mumbai, Bengaluru에서 공연할 예정입니다. 이번 투어에는 특별히 그의 십대 딸이 기타리스트로 함께 참여하여 더욱 주목받고 있습니다. 이 투어는 가족과 음악을 결합한 새로운 형태의 공연으로, 관객들에게 색다른 경험을 제공할 것으로 기대됩니다.</p>
                 <p><strong>링크:</strong> <a href="https://rollingstoneindia.com/chandresh-kudwa-live-tour-dates-2025/" target="_blank">https://rollingstoneindia.com/chandresh-kudwa-live-tour-dates-2025/</a></p>
             </div>
             <h2 id='industry_leadership_changes'>📰 Industry Leadership Changes</h2>
             <div class="article">
-                <h3>제목: '더 후'가 '커뮤니케이션 이슈'를 해결하고 드러머 자크 스타키를 재임명하다</h3>
+                <h3>제목: '더 후'가 '커뮤니케이션 이슈'를 해결하고 드러머 자크 스타키를 재등용</h3>
                 <p><strong>날짜:</strong> 2025-04-19</p>
-                <p><strong>요약:</strong> The Who는 드러머 Zak Starkey와의 '소통 문제'를 해결한 후 그를 다시 밴드의 드러머로 복귀시켰습니다. Pete Townshend는 소셜 미디어를 통해 Zak Starkey가 밴드를 떠나지 않을 것이라고 밝혔습니다. 이번 사건은 밴드 내 소통의 중요성을 다시 한번 일깨워주며, 앞으로도 원활한 협력을 위한 노력이 필요함을 시사합니다.</p>
+                <p><strong>요약:</strong> The Who는 드러머 Zak Starkey와의 '소통 문제'를 해결한 후 그를 다시 밴드의 드러머로 복귀시켰습니다. Pete Townshend는 소셜 미디어를 통해 Zak Starkey가 밴드를 떠나지 않을 것이라고 밝혔습니다. 이번 사건은 밴드 내 소통의 중요성을 다시 한번 강조하며, 앞으로도 원활한 소통을 통해 팀워크를 강화할 필요가 있음을 시사합니다.</p>
                 <p><strong>링크:</strong> <a href="https://www.billboard.com/music/music-news/zak-starkey-rehired-the-who-drummer-pete-townshend-post-1235950688/" target="_blank">https://www.billboard.com/music/music-news/zak-starkey-rehired-the-who-drummer-pete-townshend-post-1235950688/</a></p>
             </div>
             
             <div class="article">
                 <h3>제목: 음악 산업, 법률 거물 조엘 카츠에게 작별 인사</h3>
                 <p><strong>날짜:</strong> 2025-04-18</p>
-                <p><strong>요약:</strong> 유명 음악 변호사 Joel Katz가 80세의 나이로 별세했습니다. 그는 James Brown, B.B. King, Willie Nelson 등 유명 아티스트와 Recording Academy를 고객으로 두었으며, Greenberg Traurig 법률 회사의 엔터테인먼트 및 미디어 부문을 창립한 회장이었습니다. Katz는 음악 산업에서의 법률적 영향력을 행사하며 Recording Academy와 Country Music Association 등 여러 음악 기관에서 중요한 역할을 했습니다. 그의 사망은 음악 산업에 큰 손실로 여겨지며, 그의 부재가 향후 법률적 조언과 지도력의 공백으로 이어질 가능성이 있습니다.</p>
+                <p><strong>요약:</strong> 유명한 음악 변호사 Joel Katz가 80세의 나이로 별세했습니다. 그는 Greenberg Traurig의 엔터테인먼트 및 미디어 부문 창립 회장이었으며, James Brown, B.B. King, Willie Nelson 등과 같은 전설적인 음악가들과 Recording Academy의 법률 자문을 맡았습니다. 그의 사망은 음악 산업에 큰 손실로 여겨지며, Katz의 법률적 기여와 영향력은 오랫동안 기억될 것입니다.</p>
                 <p><strong>링크:</strong> <a href="https://www.digitalmusicnews.com/2025/04/18/music-industry-says-goodbye-to-legal-heavyweight-joel-katz/" target="_blank">https://www.digitalmusicnews.com/2025/04/18/music-industry-says-goodbye-to-legal-heavyweight-joel-katz/</a></p>
-            </div>
-            
-            <div class="article">
-                <h3>제목: TikTok 이탈 계속: 미국 정책 책임자, 협상 진행 중에 사임</h3>
-                <p><strong>날짜:</strong> 2025-04-18</p>
-                <p><strong>요약:</strong> TikTok의 미국 공공 정책 책임자인 Michael Beckerman이 그의 직책에서 물러나 글로벌 자문 역할로 전환할 예정입니다. 그의 사임은 ByteDance가 TikTok을 매각해야 하는 미국의 기한이 두 번째로 연장된 가운데 이루어졌으며, 이는 앱 내 여러 고위직 인사들의 잇따른 퇴사 이후 발생한 일입니다. 이러한 상황은 TikTok의 미국 내 운영에 대한 불확실성을 증대시키고 있으며, 향후 ByteDance의 전략적 대응이 중요할 것으로 보입니다.</p>
-                <p><strong>링크:</strong> <a href="https://www.digitalmusicnews.com/2025/04/17/tiktok-us-head-of-policy-steps-down/" target="_blank">https://www.digitalmusicnews.com/2025/04/17/tiktok-us-head-of-policy-steps-down/</a></p>
             </div>
             <h2 id='financial_developments,_mergers_and_acquisitions'>📰 Financial Developments, Mergers and Acquisitions</h2>
             <div class="article">
                 <h3>제목: Deezer의 AI 음악에 대한 대결부터 Charles Goldstuck의 5억 달러 모금까지... 이번 주의 MBW 주간 뉴스 요약</h3>
                 <p><strong>날짜:</strong> 2025-04-18</p>
-                <p><strong>요약:</strong> 이번 주 Music Business Worldwide의 주간 요약에서는 Deezer가 AI 음악과의 전쟁을 벌이고 있다는 소식과 Charles Goldstuck가 5억 달러의 자금을 조달한 이야기가 주요 뉴스로 다뤄졌습니다. Deezer는 AI 생성 음악이 플랫폼을 통해 확산되는 것을 막기 위해 기술적·법적 조치를 고려하고 있으며, 이는 음악 산업 전반에 걸쳐 AI의 영향력에 대한 경각심을 일깨우고 있습니다. 한편, Charles Goldstuck의 대규모 자금 조달은 음악 산업 내 새로운 투자 기회를 창출할 가능성을 시사합니다.</p>
+                <p><strong>요약:</strong> 이번 주 Music Business Worldwide의 주간 요약에서는 Deezer가 AI 음악과의 싸움을 어떻게 진행하고 있는지와 Charles Goldstuck가 5억 달러를 모금한 소식이 주요 내용으로 다뤄졌습니다. Deezer는 AI 생성 음악이 플랫폼에서 차지하는 비중을 줄이기 위해 다양한 전략을 모색하고 있으며, 이는 음악 산업 내에서 AI의 역할에 대한 논의를 촉발하고 있습니다. 한편, Charles Goldstuck의 대규모 자금 조달은 음악 산업에서의 투자와 성장 가능성을 보여주며, 앞으로의 시장 변화에 대한 기대감을 높이고 있습니다.</p>
                 <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/from-deezers-fight-agaist-charles-goldstuck/" target="_blank">https://www.musicbusinessworldwide.com/from-deezers-fight-agaist-charles-goldstuck/</a></p>
             </div>
             
             <div class="article">
-                <h3>제목: 미국 시장이 하락하는 가운데 스트리밍 회사들이 음악 주식의 상승을 주도</h3>
-                <p><strong>날짜:</strong> 2025-04-18</p>
-                <p><strong>요약:</strong> 이번 주 미국 시장이 하락세를 보이는 가운데, 스트리밍 회사들이 음악 관련 주식의 상승을 주도했습니다. 특히 Cloud Music의 주가는 10.5% 상승하며 Billboard Global Music Index의 3.6% 상승을 견인했습니다. 이러한 흐름은 스트리밍 서비스의 성장 가능성과 음악 산업 내에서의 중요성을 다시 한번 확인시켜 주며, 투자자들이 디지털 플랫폼에 대한 신뢰를 보이고 있음을 시사합니다.</p>
-                <p><strong>링크:</strong> <a href="https://www.billboard.com/pro/music-stocks-gain-streaming-companies-us-markets-fall/" target="_blank">https://www.billboard.com/pro/music-stocks-gain-streaming-companies-us-markets-fall/</a></p>
+                <h3>제목: 틱톡 미국 본사, 남다코타로 이전할까? 투자 불확실성 속에서 수십억 달러 제안에 주지사가 지지</h3>
+                <p><strong>날짜:</strong> 2025-04-19</p>
+                <p><strong>요약:</strong> TikTok의 미국 사업이 매각될 경우 South Dakota에서 운영될 가능성이 제기되고 있습니다. South Dakota의 주지사인 Larry Rhoden은 Facebook 게시물을 통해 이를 지지하며, 현지 언론은 이 소식을 보도하고 있습니다. 그러나 이러한 가능성은 TikTok의 매각이 실제로 이루어질지에 대한 불확실성에 달려 있으며, 이는 미국 내에서의 규제와 정치적 상황에 영향을 받을 수 있습니다.</p>
+                <p><strong>링크:</strong> <a href="https://www.digitalmusicnews.com/2025/04/18/tiktok-south-dakota/" target="_blank">https://www.digitalmusicnews.com/2025/04/18/tiktok-south-dakota/</a></p>
             </div>
             
             <div class="article">
-                <h3>제목: TikTok 미국 본사, 남다코타로 이전할 수 있을까? 투자 불확실성 속에서 다양한 억 달러 제안에 주지사가 지지 의사 표명</h3>
-                <p><strong>날짜:</strong> 2025-04-19</p>
-                <p><strong>요약:</strong> TikTok의 미국 운영 본부가 South Dakota에 위치할 가능성이 제기되고 있습니다. South Dakota의 주지사 Larry Rhoden은 TikTok의 미국 사업 매각이 성사될 경우, 이를 환영하는 입장을 밝혔습니다. 이러한 가능성은 주지사가 Facebook에 관련 게시물을 올린 후 지역 언론에서 보도되었습니다. 그러나 이 계획의 성사는 매각 협상의 결과에 달려 있으며, 아직 불확실한 상황입니다. TikTok의 South Dakota 이전은 지역 경제에 긍정적인 영향을 미칠 수 있지만, 매각 협상 과정에서의 변수도 고려해야 합니다.</p>
-                <p><strong>링크:</strong> <a href="https://www.digitalmusicnews.com/2025/04/18/tiktok-south-dakota/" target="_blank">https://www.digitalmusicnews.com/2025/04/18/tiktok-south-dakota/</a></p>
+                <h3>제목: 인피니트 리얼리티, 5억 달러에 AI 회사 터치캐스트 인수로 2억 7천만 달러의 넵스터 인수를 뛰어넘다 - 이제 이들은 단지 0을 더하는 것일까?</h3>
+                <p><strong>날짜:</strong> 2025-04-18</p>
+                <p><strong>요약:</strong> Infinite Reality는 최근 $207백만에 Napster를 인수한 데 이어, AI 회사 Touchcast를 $500백만에 인수한다고 발표했습니다. 이번 인수는 현금과 주식의 조합으로 이루어졌으며, Infinite Reality의 최대 규모의 거래로 기록되었습니다. 이로 인해 회사의 가치는 $15.5 billion으로 평가됩니다. 이러한 대규모 인수는 Infinite Reality가 AI 기술을 강화하고자 하는 전략의 일환으로 보이며, 업계에서는 이들이 단순히 숫자를 늘리는 것인지에 대한 의문도 제기되고 있습니다.</p>
+                <p><strong>링크:</strong> <a href="https://www.digitalmusicnews.com/2025/04/18/infinite-reality-acquires-touchcast/" target="_blank">https://www.digitalmusicnews.com/2025/04/18/infinite-reality-acquires-touchcast/</a></p>
             </div>
             <h2 id='legal_and_copyright_matters'>📰 Legal and Copyright Matters</h2>
             <div class="article">
-                <h3>제목: 디디, 캐시의 호텔 비디오는 '조작되었다'며 법정 절차에서 제외돼야 한다고 주장</h3>
+                <h3>제목: 디디, 캐시의 호텔 영상은 '조작되었다'며 법정 절차에서 배제돼야 한다고 주장</h3>
                 <p><strong>날짜:</strong> 2025-04-18</p>
-                <p><strong>요약:</strong> Sean "Diddy" Combs가 전 여자친구 Cassie Ventura를 폭행하는 장면이 담긴 호텔 비디오 영상을 법정 증거에서 제외해달라고 요청했습니다. Diddy와 그의 팀은 해당 영상이 조작되었다고 주장하며, 이 영상이 재판에서 공정한 판단을 방해할 수 있다고 우려하고 있습니다. 이 사건은 유명 인사의 사생활과 법적 문제를 둘러싼 논란을 불러일으키고 있으며, 법원이 이 요청을 어떻게 처리할지에 대한 관심이 집중되고 있습니다.</p>
+                <p><strong>요약:</strong> Sean “Diddy” Combs는 전 여자친구 Cassie Ventura를 폭행하는 장면이 담긴 호텔 비디오가 조작되었다며, 이를 재판 증거에서 제외해 줄 것을 요청했습니다. Diddy와 그의 변호인 팀은 해당 영상이 조작되었다고 주장하며, 법정에서의 공정한 판단을 위해 이 영상이 증거로 채택되어서는 안 된다고 강조하고 있습니다. 이 사건은 유명 인사의 사생활과 법적 문제에 대한 대중의 관심을 불러일으키고 있으며, 증거의 신뢰성에 대한 논란이 재판 결과에 중요한 영향을 미칠 수 있습니다.</p>
                 <p><strong>링크:</strong> <a href="https://www.digitalmusicnews.com/2025/04/18/diddy-cassie-hotel-video-manipulated-claims/" target="_blank">https://www.digitalmusicnews.com/2025/04/18/diddy-cassie-hotel-video-manipulated-claims/</a></p>
             </div>
             
             <div class="article">
-                <h3>제목: 틱토커가 '애플 댄스' 이모트 때문에 로블록스를 고소 — '자신감 넘치는' 회사는 "법정에서 답변할 것을 기대한다"고 밝혀</h3>
+                <h3>제목: 틱토커가 '애플 댄스' 이모트 때문에 로블록스를 고소 — 로블록스는 '자신있게' 법정에서 답변할 것이라고 밝힘</h3>
                 <p><strong>날짜:</strong> 2025-04-18</p>
-                <p><strong>요약:</strong> TikToker Kelley Heyer가 Roblox Corporation을 상대로 'Apple Dance' 에모트를 둘러싼 저작권 침해 소송을 제기했습니다. Heyer는 자신을 아티스트이자 창작자로 소개하며, 이 소송을 캘리포니아 연방법원에 제출했습니다. Roblox는 이 소송에 대해 자신감을 보이며 법정에서 대응할 계획이라고 밝혔습니다. 이 사건은 디지털 플랫폼에서 창작물의 저작권 보호와 관련된 논의로 이어질 가능성이 있습니다.</p>
+                <p><strong>요약:</strong> TikToker Kelley Heyer가 Roblox Corporation을 상대로 'Apple Dance' 이모트와 관련된 저작권 침해 소송을 제기했습니다. Heyer는 자신이 창작한 'Apple Dance'가 Roblox의 이모트로 사용되었다고 주장하며, 이를 해결하기 위해 캘리포니아 연방법원에 소송을 제출했습니다. Roblox는 이 소송에 대해 자신감을 보이며 법정에서 대응할 계획이라고 밝혔습니다. 이번 소송은 디지털 플랫폼에서 창작물의 저작권 보호 문제를 다시 한번 환기시키고 있습니다.</p>
                 <p><strong>링크:</strong> <a href="https://www.digitalmusicnews.com/2025/04/18/roblox-apple-dance-lawsuit/" target="_blank">https://www.digitalmusicnews.com/2025/04/18/roblox-apple-dance-lawsuit/</a></p>
             </div>
             <h2 id='technological_initiatives'>📰 Technological Initiatives</h2>
             <div class="article">
-                <h3>제목: 무료로 라이프타임 영화를 온라인에서 어떻게 볼 수 있을까?</h3>
+                <h3>제목: 라이프타임 영화를 온라인에서 무료로 보는 방법</h3>
                 <p><strong>날짜:</strong> 2025-04-19</p>
-                <p><strong>요약:</strong> 이 기사는 케이블 없이 Lifetime 네트워크의 영화, 쇼, 다큐멘터리 및 스페셜 프로그램을 온라인으로 실시간 스트리밍하는 방법을 안내합니다. 사용자는 Lifetime의 콘텐츠를 무료로 시청할 수 있는 다양한 스트리밍 서비스와 플랫폼을 활용할 수 있으며, 이러한 서비스에는 광고가 포함될 수 있습니다. 또한, 무료 체험 기간을 제공하는 서비스들을 활용하면 비용을 절약할 수 있는 방법도 소개됩니다.</p>
+                <p><strong>요약:</strong> 이 기사에서는 케이블 없이 Lifetime 네트워크의 영화, 쇼, 다큐멘터리 및 스페셜을 온라인으로 실시간 스트리밍하는 방법을 설명합니다. 주요 방법으로는 Lifetime의 공식 웹사이트나 앱을 통한 무료 트라이얼, 그리고 Hulu, Sling TV, Philo와 같은 스트리밍 서비스를 이용하는 방법이 있습니다. 이러한 서비스를 통해 사용자는 다양한 콘텐츠를 쉽게 접근할 수 있으며, 특히 무료 체험 기간을 활용하면 비용 부담 없이 즐길 수 있습니다.</p>
                 <p><strong>링크:</strong> <a href="https://www.billboard.com/culture/product-recommendations/how-to-watch-lifetime-channel-movies-online-free-streaming-1235950664/" target="_blank">https://www.billboard.com/culture/product-recommendations/how-to-watch-lifetime-channel-movies-online-free-streaming-1235950664/</a></p>
             </div>
             
             <div class="article">
-                <h3>제목: 로테르담 기반 티켓팅 플랫폼 '스테이저', 스포티파이와 통합 파트너십 체결</h3>
+                <h3>제목: 로테르담 기반 티케팅 플랫폼 '스테이저', 스포티파이와 통합 파트너십 체결 성공</h3>
                 <p><strong>날짜:</strong> 2025-04-18</p>
-                <p><strong>요약:</strong> Rotterdam에 본사를 둔 티켓팅 플랫폼 Stager가 Spotify와의 통합 파트너십을 체결했습니다. Stager는 이벤트 기획자들을 위한 '올인원 도구'로, 티켓팅뿐만 아니라 이벤트 기획 소프트웨어와 마케팅 서비스를 제공합니다. 이번 파트너십을 통해 Stager는 Spotify와의 협력을 통해 사용자 경험을 강화하고, 더 나은 이벤트 관리 솔루션을 제공할 것으로 기대됩니다. 이러한 통합은 Stager의 시장 경쟁력을 높이고, 고객에게 더 많은 가치를 제공할 수 있는 기회가 될 것입니다.</p>
+                <p><strong>요약:</strong> Rotterdam에 기반을 둔 티켓팅 플랫폼 Stager가 Spotify와의 통합 파트너십을 체결했습니다. Stager는 이벤트 주최자를 위한 "올인원 도구"로, 티켓팅뿐만 아니라 이벤트 기획 소프트웨어와 마케팅 솔루션도 제공합니다. 이번 파트너십을 통해 Stager는 Spotify와의 협력을 통해 사용자 경험을 더욱 향상시킬 것으로 기대됩니다. 이는 최근 Amsterdam에 본사를 둔 Eventix(현재 Weeztix)와 Spotify 간의 파트너십 발표에 이어지는 소식으로, 음악 스트리밍 플랫폼과의 협업이 이벤트 산업에 미치는 긍정적인 영향을 시사합니다.</p>
                 <p><strong>링크:</strong> <a href="https://www.digitalmusicnews.com/2025/04/18/stager-spotify-integration/" target="_blank">https://www.digitalmusicnews.com/2025/04/18/stager-spotify-integration/</a></p>
             </div>
             <h2 id='music_industry'>📰 Music Industry</h2>
             <div class="article">
-                <h3>제목: 메간 더 스탤리언, 다음 주 공개될 신곡 'Whenever' 발표</h3>
+                <h3>제목: 래나 델 레이의 신곡 '블루버드', 충격적인 실제 경험에서 탄생</h3>
+                <p><strong>날짜:</strong> 2025-04-20</p>
+                <p><strong>요약:</strong> Lana Del Rey의 신곡 'Bluebird'는 그녀가 실제로 겪었던 놀라운 경험에서 영감을 받아 탄생했습니다. 그녀는 극한 상황에서 자연이 자신에게 소통하는 방식이 있다고 느꼈으며, 그 순간 멜로디가 떠올랐다고 언급했습니다. 이 곡은 인간과 자연의 연결을 강조하며, 극한 상황에서 자연이 주는 메시지를 통해 위안을 얻을 수 있다는 점을 시사합니다.</p>
+                <p><strong>링크:</strong> <a href="https://www.billboard.com/music/music-news/lana-del-rey-bluebird-song-meaning-1235950716/" target="_blank">https://www.billboard.com/music/music-news/lana-del-rey-bluebird-song-meaning-1235950716/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>제목: 메건 더 스탤리언, 새로운 노래 'Whenever' 발표, 다음 주 공개 예정</h3>
                 <p><strong>날짜:</strong> 2025-04-19</p>
-                <p><strong>요약:</strong> Megan Thee Stallion이 새로운 곡 ‘Whenever’를 발표할 예정이며, 이 곡은 다음 주에 공개됩니다. 그녀는 토요일(4월 19일)에 티저 아트와 함께 사전 저장 링크를 공유했습니다. 이번 발표는 팬들에게 기대감을 높이며, 음악 산업에서 Megan Thee Stallion의 입지를 더욱 강화할 것으로 보입니다.</p>
+                <p><strong>요약:</strong> Megan Thee Stallion이 새로운 곡 ‘Whenever’를 발표할 예정이며, 이 곡은 다음 주에 공개됩니다. 그녀는 지난 토요일(4월 19일)에 티저 아트와 함께 사전 저장 링크를 공유했습니다. 이번 곡 발표는 그녀의 음악적 방향에 대한 기대감을 높이고 있으며, 팬들은 새로운 사운드와 스타일을 기대하고 있습니다.</p>
                 <p><strong>링크:</strong> <a href="https://www.billboard.com/music/music-news/megan-thee-stallion-whenever-release-date-1235950736/" target="_blank">https://www.billboard.com/music/music-news/megan-thee-stallion-whenever-release-date-1235950736/</a></p>
             </div>
             
             <div class="article">
-                <h3>제목: 나초의 기독교 앨범 'Sobre La Roca'와 라틴 음악에서의 더 많은 우리를 끌어올려주는 순간들</h3>
+                <h3>제목: 나초의 기독교 음악 앨범 'Sobre La Roca'와 라틴 음악에서의 더 많은 감동적인 순간들</h3>
                 <p><strong>날짜:</strong> 2025-04-19</p>
-                <p><strong>요약:</strong> 기사에서는 Nacho의 기독교 앨범 'Sobre La Roca' 출시와 함께 라틴 음악 씬에서의 긍정적인 순간들을 다루고 있습니다. 또한, 라틴 음악 역사에서 중요한 그룹인 Las Chicas del Can에 대한 영화가 제작 중이라는 소식도 전해집니다. 이러한 움직임들은 라틴 음악의 다양성과 문화적 중요성을 강조하며, 향후 라틴 음악의 발전 가능성을 시사합니다.</p>
+                <p><strong>요약:</strong> 기사에서는 Nacho의 기독교 앨범 'Sobre La Roca'와 함께 라틴 음악에서의 여러 감동적인 순간들을 다루고 있습니다. Nacho의 새로운 앨범은 그의 신앙을 바탕으로 한 음악적 여정을 담고 있으며, 이는 라틴 음악 팬들에게 긍정적인 메시지를 전달합니다. 또한, Las Chicas del Can에 관한 영화가 곧 개봉될 예정으로, 이는 라틴 음악의 역사와 문화에 대한 관심을 높일 것으로 기대됩니다. 이러한 움직임들은 라틴 음악이 단순한 엔터테인먼트를 넘어 문화적, 영적 메시지를 전달하는 수단으로서의 역할을 강화하고 있음을 시사합니다.</p>
                 <p><strong>링크:</strong> <a href="https://www.billboard.com/music/latin/best-latin-music-news-nacho-christian-album-more-1235950365/" target="_blank">https://www.billboard.com/music/latin/best-latin-music-news-nacho-christian-album-more-1235950365/</a></p>
-            </div>
-            
-            <div class="article">
-                <h3>제목: 빌보드의 음악 산업 이벤트 캘린더</h3>
-                <p><strong>날짜:</strong> 2025-04-19</p>
-                <p><strong>요약:</strong> Billboard의 Music Industry Events Calendar는 음악 산업 전반에 걸친 주요 이벤트들을 종합적으로 정리한 기사입니다. 이 캘린더는 콘서트, 시상식, 페스티벌 등 다양한 음악 관련 행사를 날짜별로 나열하여 업계 관계자와 음악 팬들이 중요한 이벤트를 놓치지 않도록 돕습니다. 또한, 이러한 이벤트들은 음악 산업의 트렌드를 파악하고 네트워킹 기회를 제공하는 중요한 플랫폼으로 작용하며, 업계의 발전 방향을 가늠할 수 있는 지표로도 활용될 수 있습니다.</p>
-                <p><strong>링크:</strong> <a href="https://www.billboard.com/pro/music-industry-events-calendar-festivals-awards-conferences/" target="_blank">https://www.billboard.com/pro/music-industry-events-calendar-festivals-awards-conferences/</a></p>
             </div>
             <h2 id='live_entertainment'>📰 Live Entertainment</h2>
             <div class="article">
-                <h3>제목: 트래비스 스콧, 레슬매니아 41 기간 중 '칵터스 잭 x WWE' 컬렉션 출시: 여기서 구매하세요</h3>
+                <h3>제목: 켄드릭 라마와 SZA의 그랜드 내셔널 투어 세트리스트: 첫 콘서트에서 선보인 모든 곡들</h3>
+                <p><strong>날짜:</strong> 2025-04-20</p>
+                <p><strong>요약:</strong> Kendrick Lamar와 SZA가 함께하는 Grand National Tour의 첫 공연에서 어떤 곡들이 연주되었는지에 대한 세부 정보를 제공합니다. 이들은 각자의 인기곡과 협업한 곡들을 포함하여 다양한 레퍼토리를 선보였으며, 팬들에게 특별한 경험을 선사했습니다. 이번 투어는 두 아티스트의 음악적 시너지를 확인할 수 있는 기회로, 앞으로의 공연에서도 많은 기대를 모으고 있습니다.</p>
+                <p><strong>링크:</strong> <a href="https://www.billboard.com/lists/kendrick-lamar-sza-grand-national-tour-setlist-first-show/" target="_blank">https://www.billboard.com/lists/kendrick-lamar-sza-grand-national-tour-setlist-first-show/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>제목: 무료로 국가 라이브 음악의 날 온라인에서 어떻게 관람할 수 있을까?</h3>
+                <p><strong>날짜:</strong> 2025-04-20</p>
+                <p><strong>요약:</strong> 4월 20일에 처음으로 개최되는 National Live Music Day를 기념하기 위해 무료로 온라인 스트리밍을 통해 라이브 음악을 즐길 수 있는 방법을 소개합니다. 여러 아티스트의 공연이 다양한 플랫폼에서 실시간으로 중계되며, 팬들은 집에서도 편안하게 음악 축제를 경험할 수 있습니다. 이번 행사는 음악 산업의 디지털 전환을 보여주는 사례로, 향후 온라인 콘서트의 가능성을 시사합니다.</p>
+                <p><strong>링크:</strong> <a href="https://www.billboard.com/culture/product-recommendations/national-live-music-day-how-to-watch-online-1235950680/" target="_blank">https://www.billboard.com/culture/product-recommendations/national-live-music-day-how-to-watch-online-1235950680/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>제목: 트래비스 스콧, 레슬매니아 41 기간 동안 칵터스 잭 x WWE 컬렉션 출시: 여기서 구매하세요</h3>
                 <p><strong>날짜:</strong> 2025-04-19</p>
-                <p><strong>요약:</strong> Travis Scott가 WrestleMania 41 기간 동안 Cactus Jack x WWE 컬렉션을 출시했습니다. 이 컬렉션은 그래픽 티셔츠, 폼 핑거, 하드코어 챔피언십 벨트의 복제품 등을 포함하고 있습니다. 이번 협업은 음악과 스포츠 엔터테인먼트의 경계를 허물며 팬들에게 새로운 경험을 제공하고, 두 산업 간의 시너지를 창출할 가능성을 보여줍니다.</p>
+                <p><strong>요약:</strong> Travis Scott가 WrestleMania 41 기간 동안 Cactus Jack x WWE 컬렉션을 출시했습니다. 이번 컬렉션에는 그래픽 티셔츠, 폼 핑거, 하드코어 챔피언십 벨트의 복제품 등이 포함되어 있습니다. 이 협업은 음악과 프로레슬링 팬들 사이에서 큰 관심을 끌 것으로 예상되며, 두 문화의 결합을 통해 새로운 시장을 개척할 가능성이 있습니다.</p>
                 <p><strong>링크:</strong> <a href="https://www.billboard.com/culture/product-recommendations/travis-scott-wwe-wrestlemania-collection-shop-here-1235950703/" target="_blank">https://www.billboard.com/culture/product-recommendations/travis-scott-wwe-wrestlemania-collection-shop-here-1235950703/</a></p>
-            </div>
-            
-            <div class="article">
-                <h3>제목: 레이디 가가, 코첼라 주말 두 번째 공연에서 마이크 고장에도 불구하고 무사히 진행</h3>
-                <p><strong>날짜:</strong> 2025-04-19</p>
-                <p><strong>요약:</strong> Lady Gaga는 Coachella Weekend Two 공연 도중 마이크 오작동을 겪었지만, 이를 극복하며 라이브 공연을 이어갔습니다. 이 과정에서 그녀는 관객들에게 "적어도 내가 라이브로 노래한다는 걸 알게 됐죠"라고 말하며 유머러스하게 상황을 넘겼습니다. 이러한 사건은 라이브 공연의 진정성과 아티스트의 프로페셔널리즘을 강조하는 사례로 볼 수 있습니다.</p>
-                <p><strong>링크:</strong> <a href="https://www.billboard.com/music/music-news/lady-gaga-coachella-2025-microphone-malfunction-weekend-two-1235950684/" target="_blank">https://www.billboard.com/music/music-news/lady-gaga-coachella-2025-microphone-malfunction-weekend-two-1235950684/</a></p>
-            </div>
-            
-            <div class="article">
-                <h3>제목: XG, 코첼라에 도전: 단독 투어 스톱 | 전체 접근 | 빌보드 뉴스</h3>
-                <p><strong>날짜:</strong> 2025-04-19</p>
-                <p><strong>요약:</strong> XG가 이번 주말 Coachella 무대를 다시 한 번 빛내기 위해 준비하는 과정을 조명하는 기사입니다. 리허설 중인 XG의 독점 영상과 Coachella에서 가장 좋아하는 부분에 대한 인터뷰가 포함되어 있습니다. 이 기사는 XG의 무대 준비 과정을 통해 그들의 열정과 노력, 그리고 Coachella에 대한 애정을 엿볼 수 있게 해줍니다. Coachella에서의 XG의 활약이 앞으로 그들의 글로벌 인지도 상승에 긍정적인 영향을 미칠 것으로 예상됩니다.</p>
-                <p><strong>링크:</strong> <a href="https://www.billboard.com/video/xg-coachella-exclusive-tour-stop-all-access/" target="_blank">https://www.billboard.com/video/xg-coachella-exclusive-tour-stop-all-access/</a></p>
             </div>
             
         <script>
@@ -357,90 +364,21 @@
             link.classList.remove('active');
             if (link.getAttribute('href') === '#' + current) {
               link.classList.add('active');
-            }
-          });
-        });
-        window.addEventListener('scroll', () => {
-          let current = '';
-          for (const section of sections) {
-            const sectionTop = section.offsetTop - 120;
-            if (pageYOffset >= sectionTop) {
-              current = section.getAttribute('id');
-            }
-          }
-        
-          navLinks.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href') === '#' + current) {
-              link.classList.add('active');
-        
+              
               // 👉 메뉴가 너무 길 경우, 해당 메뉴 자동 스크롤
               link.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+
             }
           });
         });
+        document.getElementById('scroll-left').addEventListener('click', () => {
+          document.getElementById('category-nav').scrollBy({ left: -200, behavior: 'smooth' });
+        });
+
+        document.getElementById('scroll-right').addEventListener('click', () => {
+          document.getElementById('category-nav').scrollBy({ left: 200, behavior: 'smooth' });
+        });
       </script>
-        /*
-        <script>
-          const sidebar = document.getElementById('sidebar');
-          const toggleButton = document.getElementById('toggle-button');
-        
-          // 위치 불러오기
-          window.addEventListener('DOMContentLoaded', () => {
-            const savedX = localStorage.getItem('sidebarX');
-            const savedY = localStorage.getItem('sidebarY');
-            if (savedX && savedY) {
-              sidebar.style.left = savedX + 'px';
-              sidebar.style.top = savedY + 'px';
-              sidebar.style.bottom = 'auto';
-            }
-          });
-        
-          // 드래그 기능
-          let isDragging = false;
-          let offsetX = 0;
-          let offsetY = 0;
-        
-          sidebar.addEventListener('mousedown', (e) => {
-            isDragging = true;
-            offsetX = e.clientX - sidebar.offsetLeft;
-            offsetY = e.clientY - sidebar.offsetTop;
-            document.body.style.userSelect = 'none';
-          });
-        
-          document.addEventListener('mousemove', (e) => {
-            if (isDragging) {
-              const x = e.clientX - offsetX;
-              const y = e.clientY - offsetY;
-              sidebar.style.left = x + 'px';
-              sidebar.style.top = y + 'px';
-              sidebar.style.bottom = 'auto';
-              localStorage.setItem('sidebarX', x);
-              localStorage.setItem('sidebarY', y);
-            }
-          });
-        
-          document.addEventListener('mouseup', () => {
-            isDragging = false;
-            document.body.style.userSelect = '';
-          });
-        
-          // 토글 버튼 클릭 시 show/hide
-          toggleButton.addEventListener('click', () => {
-            if (sidebar.style.display === 'none' || sidebar.style.display === '') {
-              sidebar.style.display = 'block';
-            } else {
-              sidebar.style.display = 'none';
-            }
-          });
-        </script>
-        */
-
 </main>
-
-    <footer>
-        2025 Music Newsletter | SJ Lee
-    </footer>
-    
 </body>
 </html>
