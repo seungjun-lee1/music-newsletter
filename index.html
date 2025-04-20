@@ -355,6 +355,25 @@
             }
           });
         });
+        window.addEventListener('scroll', () => {
+          let current = '';
+          for (const section of sections) {
+            const sectionTop = section.offsetTop - 120;
+            if (pageYOffset >= sectionTop) {
+              current = section.getAttribute('id');
+            }
+          }
+        
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + current) {
+              link.classList.add('active');
+        
+              // 👉 메뉴가 너무 길 경우, 해당 메뉴 자동 스크롤
+              link.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+            }
+          });
+        });
       </script>
         /*
         <script>
