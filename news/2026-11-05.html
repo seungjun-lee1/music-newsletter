@@ -1,0 +1,464 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>🎵 오늘의 글로벌 음악 산업 뉴스 (2026-11-05)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Pretendard', sans-serif;
+            background-color: #f9f9f9;
+            color: #222;
+            padding: 40px;
+            max-width: 900px;
+            margin: 0px;
+        }
+        header {
+          max-width: 900px;
+          margin: auto;
+          position: sticky;
+          top: 0;
+          background: #fff;
+          padding: 20px;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+          z-index: 100;
+        }
+        h1 {
+          font-size: 2rem;
+          margin: 0 0 10px;
+          padding: 0;
+        }
+        nav {
+          display: flex;
+          gap: 20px;
+          overflow-x: auto;
+          scrollbar-width: none; /* Firefox */
+          -ms-overflow-style: none;  /* IE, Edge */
+          padding-bottom: 10px;
+        }
+        nav::-webkit-scrollbar {
+          display: none;  /* Chrome, Safari */
+        }
+        nav a {
+          text-decoration: none;
+          color: #444;
+          font-weight: 500;
+          font-size: 0.95rem;
+          padding: 6px 10px;
+          border-radius: 5px;
+          transition: background 0.2s;
+          white-space: nowrap;
+        }
+        nav a.active {
+          background-color: #2b4cb3;
+          color: #fff;
+        }
+        nav a:hover {
+          background-color: #e0e0e0;
+        }
+        main {
+          max-width: 900px;
+          margin: auto;
+          padding: 40px 20px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 50px;
+            color: #2b4cb3;
+        }
+        .article {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+        .article h3 {
+            margin: 0 0 10px;
+            font-size: 1.2rem;
+            color: #111;
+        }
+        .article p {
+            margin: 5px 0;
+            line-height: 1.5;
+        }
+        .article a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .article a:hover {
+            text-decoration: underline;
+        }
+        .nav-wrapper {
+          max-width: 900px;
+          margin: auto;
+          position: relative;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          padding: 10px 0;
+          background: #fff;
+        }
+        
+        .nav-wrapper button {
+          background: #f0f0f0;
+          border: none;
+          border-radius: 6px;
+          padding: 6px 10px;
+          font-size: 16px;
+          cursor: pointer;
+          transition: background 0.2s;
+        }
+        .nav-wrapper button:hover {
+          background: #e0e0e0;
+        }
+        
+        #category-nav {
+          flex: 1;
+          display: flex;
+          overflow-x: auto;
+          gap: 20px;
+          scrollbar-width: none;
+          -ms-overflow-style: none;
+        }
+        #category-nav::-webkit-scrollbar {
+          display: none;
+        }
+        footer {
+            margin-top: 60px;
+            font-size: 0.9rem;
+            color: #999;
+            text-align: center;
+        }
+    /*
+       #sidebar {
+        position: fixed;
+        bottom: 30px;
+        left: 20px;
+        width: 150px;
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 10px 12px;
+        border-radius: 10px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        z-index: 999;
+        transition: top 0.3s ease;
+        font-family: 'Segoe UI', sans-serif;
+        backdrop-filter: blur(3px); /* 흐림 효과 */
+        cursor: move;
+        transition: all 0.3s;
+      }
+
+      #sidebar a {
+        display: block;
+        margin: 8px 0;
+        color: #222;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 12px;
+        transition: color 0.2s;
+      }
+    #toggle-button {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 40px;
+        height: 40px;
+        background-color: #ffffffcc;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        font-size: 20px;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        backdrop-filter: blur(5px);
+      }
+      #sidebar a:hover {
+        color: #007BFF;
+      }
+      }
+
+
+          html {
+            scroll-behavior: smooth;
+          }
+          /* 모바일 숨김 처리 */
+          @media (max-width: 768px) {
+            #sidebar {
+              display: none;
+            }
+            #toggle-button {
+              display: none;
+            }
+          }
+    */
+    </style>
+</head>
+<body>
+
+<nav class="gnb">
+  <a href="/music-newsletter/index.html">🏠 오늘의 뉴스</a>
+  <a href="/music-newsletter/archive.html">📁 일자 별 아카이브</a>
+  <a href="/music-newsletter/category.html">📚 카테고리 별 아카이브</a>
+</nav>
+<style>
+  .gnb {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+    z-index: 1000;
+  }
+  .gnb a {
+    text-decoration: none;
+    color: #2b4cb3;
+  }
+  .gnb a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+    <header>
+    <h1>🎵 오늘의 글로벌 음악 산업 뉴스 (2026-11-05)</h1>
+    <div class="nav-wrapper">
+        <button id="scroll-left">◀</button>
+        <nav id="category-nav">
+          <!--
+            <div id='toggle-button'>☰</div>
+            <div id="sidebar">
+          -->
+    <a href='#general'>General</a><a href='#k-pop_music_industry'>K-pop Music Industry</a><a href='#india_music_industry'>India Music Industry</a><a href='#industry_leadership_changes'>Industry Leadership Changes</a><a href='#financial_developments,_mergers_and_acquisitions'>Financial Developments, Mergers and Acquisitions</a><a href='#legal_and_copyright_matters'>Legal and Copyright Matters</a><a href='#technological_initiatives'>Technological Initiatives</a><a href='#market_insights'>Market Insights</a><a href='#music_industry'>Music Industry</a><a href='#live_entertainment'>Live Entertainment</a>
+        </nav>
+        <button id="scroll-right">▶</button>
+      </div>
+    </header>
+    <main>
+    <h2 id='general'>📰 General</h2>
+            <div class="article">
+                <h3>Harry Styles residency boosts MSG Entertainment as revenues rise 37% to $217M in calendar Q3</h3>
+                <p><strong>날짜:</strong> 2026-11-04</p>
+                <p><strong>요약:</strong> Plus: what MSG Entertainment’s CFO said on the earnings call about bookings, residencies, and demand
+<p><a href="https://www.musicbusinessworldwide.com/harry-styles-run-pushes-msg-entertainment-to-record-concert-quarter-at-madison-square-garden-as-revenues-rise-37-to-217m-in-calendar-q3/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/harry-styles-run-pushes-msg-entertainment-to-record-concert-quarter-at-madison-square-garden-as-revenues-rise-37-to-217m-in-calendar-q3/" target="_blank">https://www.musicbusinessworldwide.com/harry-styles-run-pushes-msg-entertainment-to-record-concert-quarter-at-madison-square-garden-as-revenues-rise-37-to-217m-in-calendar-q3/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>HYBE to transfer its entire $285.6M stake in crypto firm Dunamu to US subsidiary HYBE Americas</h3>
+                <p><strong>날짜:</strong> 2026-11-04</p>
+                <p><strong>요약:</strong> The transfer is scheduled to complete on November 30.
+<p><a href="https://www.musicbusinessworldwide.com/hybe-to-transfer-its-entire-285-6m-stake-in-crypto-firm-dunamu-to-us-subsidiary-hybe-americas/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/hybe-to-transfer-its-entire-285-6m-stake-in-crypto-firm-dunamu-to-us-subsidiary-hybe-americas/" target="_blank">https://www.musicbusinessworldwide.com/hybe-to-transfer-its-entire-285-6m-stake-in-crypto-firm-dunamu-to-us-subsidiary-hybe-americas/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>5 things to know about CISAC’s global report, as songwriter royalty collections hit record $15.9B in 2025, with $900M+ from The MLC, and AI in focus</h3>
+                <p><strong>날짜:</strong> 2026-11-04</p>
+                <p><strong>요약:</strong> Global songwriter royalty collections hit a record €14.06 billion in 2025, with the increase largely driven by the first-time inclusion of The MLC
+<p><a href="https://www.musicbusinessworldwide.com/5-things-to-know-about-cisacs-global-report-as-songwriter-royalty-collections-hit-record-15-9b-in-2025-with-900m-from-the-mlc-and-ai-in-focus/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/5-things-to-know-about-cisacs-global-report-as-songwriter-royalty-collections-hit-record-15-9b-in-2025-with-900m-from-the-mlc-and-ai-in-focus/" target="_blank">https://www.musicbusinessworldwide.com/5-things-to-know-about-cisacs-global-report-as-songwriter-royalty-collections-hit-record-15-9b-in-2025-with-900m-from-the-mlc-and-ai-in-focus/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Suno asks court to dismiss Jason Isbell’s right-of-publicity class action. It claims artist names are ‘shorthand’ for musical genres.</h3>
+                <p><strong>날짜:</strong> 2026-11-04</p>
+                <p><strong>요약:</strong> The AI music company filed its motion on Tuesday (November 3)
+<p><a href="https://www.musicbusinessworldwide.com/suno-asks-court-to-dismiss-jason-isbells-right-of-publicity-class-action-it-claims-artist-names-are-shorthand-for-musical-genres/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/suno-asks-court-to-dismiss-jason-isbells-right-of-publicity-class-action-it-claims-artist-names-are-shorthand-for-musical-genres/" target="_blank">https://www.musicbusinessworldwide.com/suno-asks-court-to-dismiss-jason-isbells-right-of-publicity-class-action-it-claims-artist-names-are-shorthand-for-musical-genres/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Daniel Hong joins Nebula17 as COO, as Naoki Osada’s US-Japan music company signs distribution deal with The Orchard</h3>
+                <p><strong>날짜:</strong> 2026-11-04</p>
+                <p><strong>요약:</strong> The appointment is part of a wider expansion that also includes a global distribution partnership with The Orchard, a Sony Music Entertainment company.
+<p><a href="https://www.musicbusinessworldwide.com/daniel-hong-joins-nebula17-as-coo-as-naoki-osadas-us-japan-music-company-signs-distribution-deal-with-the-orchard/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/daniel-hong-joins-nebula17-as-coo-as-naoki-osadas-us-japan-music-company-signs-distribution-deal-with-the-orchard/" target="_blank">https://www.musicbusinessworldwide.com/daniel-hong-joins-nebula17-as-coo-as-naoki-osadas-us-japan-music-company-signs-distribution-deal-with-the-orchard/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>SM Entertainment’s Q3 revenues fall 9.5% YoY to $205M as album and concert revenue tumbles</h3>
+                <p><strong>날짜:</strong> 2026-11-04</p>
+                <p><strong>요약:</strong> Concert revenue at SM’s parent company fell 34.2% YoY
+<p><a href="https://www.musicbusinessworldwide.com/sm-entertainments-q3-revenues-fall-9-5-yoy-to-205m-as-album-and-concert-revenue-tumbles/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/sm-entertainments-q3-revenues-fall-9-5-yoy-to-205m-as-album-and-concert-revenue-tumbles/" target="_blank">https://www.musicbusinessworldwide.com/sm-entertainments-q3-revenues-fall-9-5-yoy-to-205m-as-album-and-concert-revenue-tumbles/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Reservoir generated $49.9M in calendar Q3, up 10% YoY, as it raises full-year guidance</h3>
+                <p><strong>날짜:</strong> 2026-11-04</p>
+                <p><strong>요약:</strong> Reservoir has published its financial results for the three months ended September 30, 2026
+<p><a href="https://www.musicbusinessworldwide.com/reservoir-generated-49-9m-in-calendar-q3-up-10-yoy-as-it-raises-full-year-guidance/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/reservoir-generated-49-9m-in-calendar-q3-up-10-yoy-as-it-raises-full-year-guidance/" target="_blank">https://www.musicbusinessworldwide.com/reservoir-generated-49-9m-in-calendar-q3-up-10-yoy-as-it-raises-full-year-guidance/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>‘Supercharged’ royalties, Downtown’s margins, and cost cuts: What I learned from UMG’s Q3 earnings</h3>
+                <p><strong>날짜:</strong> 2026-11-03</p>
+                <p><strong>요약:</strong> The latest 'Tim's Take' from Music Business Worldwide founder, Tim Ingham
+<p><a href="https://www.musicbusinessworldwide.com/supercharged-downtowns-margins-and-more-cost-cuts-what-i-learned-from-umgs-q3-earnings/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/supercharged-downtowns-margins-and-more-cost-cuts-what-i-learned-from-umgs-q3-earnings/" target="_blank">https://www.musicbusinessworldwide.com/supercharged-downtowns-margins-and-more-cost-cuts-what-i-learned-from-umgs-q3-earnings/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Former Kobalt exec Simon Dennett joins Spanish Point, developer of music rights platform Matching Engine, as Chief Product Officer</h3>
+                <p><strong>날짜:</strong> 2026-11-03</p>
+                <p><strong>요약:</strong> Matching Engine is used by Collective Management Organisations (CMOs) including IMRO, SOCAN, TONO, and KODA across 13 countries in Europe and North America.
+<p><a href="https://www.musicbusinessworldwide.com/former-kobalt-exec-simon-dennett-joins-music-rights-tech-firm-spanish-point-as-chief-product-officer/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/former-kobalt-exec-simon-dennett-joins-music-rights-tech-firm-spanish-point-as-chief-product-officer/" target="_blank">https://www.musicbusinessworldwide.com/former-kobalt-exec-simon-dennett-joins-music-rights-tech-firm-spanish-point-as-chief-product-officer/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>‘Arabic music is not a niche waiting to be discovered.’</h3>
+                <p><strong>날짜:</strong> 2026-11-03</p>
+                <p><strong>요약:</strong> Anghami co-founder Eddy Maroun on new venture IPNation's $100M quest for MENA catalogs
+<p><a href="https://www.musicbusinessworldwide.com/arabic-music-is-not-a-niche-waiting-to-be-discovered/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/arabic-music-is-not-a-niche-waiting-to-be-discovered/" target="_blank">https://www.musicbusinessworldwide.com/arabic-music-is-not-a-niche-waiting-to-be-discovered/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Billboard’s Music Industry Events Calendar</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> A complete rundown of the most important events across the music business.</p>
+                <p><strong>링크:</strong> <a href="https://www.billboard.com/pro/music-industry-events-calendar-festivals-awards-conferences/" target="_blank">https://www.billboard.com/pro/music-industry-events-calendar-festivals-awards-conferences/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Judge Torn on Lil Durk Bail Question After Murder-for-Hire Verdict: ‘A Question of Psychology’</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> The rapper's lawyers want him out of jail ahead of a second racketeering trial. Prosecutors say he'll flee.</p>
+                <p><strong>링크:</strong> <a href="https://www.billboard.com/pro/lil-durk-bail-motion-judge-torn-rapper-jail/" target="_blank">https://www.billboard.com/pro/lil-durk-bail-motion-judge-torn-rapper-jail/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>50 Cent Jokingly Sends Diddy a Happy Birthday Message With Jail Photo: ‘Wishing You Many More LOL’</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> 50's petty is unmatched.</p>
+                <p><strong>링크:</strong> <a href="https://www.billboard.com/music/rb-hip-hop/50-cent-diddy-happy-birthday-1236374084/" target="_blank">https://www.billboard.com/music/rb-hip-hop/50-cent-diddy-happy-birthday-1236374084/</a></p>
+            </div>
+            <h2 id='k-pop_music_industry'>📰 K-pop Music Industry</h2>
+            <div class="article">
+                <h3>Kim Ji Won, Kim Woo Seok, And Lee Jin Hee Enjoy A Moment Of Peace In “Doctor X” Special Poster</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> <p>&#8220;Doctor X&#8221; has released a special new poster! Based on the hit Japanese series of the same name, SBS’s “Doctor X” is a medical noir drama starring Kim Ji Won as Gye Soo Jung, a genius surgeon who proves what it truly means to be a doctor through pure skill alone as she “operates” on&#8230; <a class="more-link" href="https://www.soompi.com/article/1884254wpp/kim-ji-won-kim-woo-seok-and-lee-jin-hee-enjoy-a-moment-of-peace-in-doctor-x-special-poster">Continue reading <span class="screen-reader-text">Kim Ji Won, Kim Woo Seok, And Lee Jin Hee Enjoy A Moment Of Peace In &#8220;Doctor X&#8221; Special Poster</span></a></p>
+<p>The post <a href="https://www.soompi.com/article/1884254wpp/kim-ji-won-kim-woo-seok-and-lee-jin-hee-enjoy-a-moment-of-peace-in-doctor-x-special-poster">Kim Ji Won, Kim Woo Seok, And Lee Jin Hee Enjoy A Moment Of Peace In &#8220;Doctor X&#8221; Special Poster</a> appeared first on <a href="https://www.soompi.com">Soompi</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://www.soompi.com/article/1884254wpp/kim-ji-won-kim-woo-seok-and-lee-jin-hee-enjoy-a-moment-of-peace-in-doctor-x-special-poster" target="_blank">https://www.soompi.com/article/1884254wpp/kim-ji-won-kim-woo-seok-and-lee-jin-hee-enjoy-a-moment-of-peace-in-doctor-x-special-poster</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Park Ji Hwan, Jo Bok Rae, And More Confirmed To Join Jung Woo Sung And Jung Sung Il’s New Historical Action Film</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> <p>The upcoming historical action film &#8220;Sal Saeng Bu&#8221; (literal title) has confirmed additional cast members! On November 5, the production team behind &#8220;Sal Saeng Bu&#8221; announced its robust casting lineup, following the previously confirmed cast members Jung Woo Sung, Jung Sung Il, and Wi Ha Joon. Based on a webtoon, “Sal Saeng Bu” is a&#8230; <a class="more-link" href="https://www.soompi.com/article/1884222wpp/park-ji-hwan-jo-bok-rae-and-more-confirmed-to-join-jung-woo-sung-and-jung-sung-ils-new-historical-action-film">Continue reading <span class="screen-reader-text">Park Ji Hwan, Jo Bok Rae, And More Confirmed To Join Jung Woo Sung And Jung Sung Il&#8217;s New Historical Action Film</span></a></p>
+<p>The post <a href="https://www.soompi.com/article/1884222wpp/park-ji-hwan-jo-bok-rae-and-more-confirmed-to-join-jung-woo-sung-and-jung-sung-ils-new-historical-action-film">Park Ji Hwan, Jo Bok Rae, And More Confirmed To Join Jung Woo Sung And Jung Sung Il&#8217;s New Historical Action Film</a> appeared first on <a href="https://www.soompi.com">Soompi</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://www.soompi.com/article/1884222wpp/park-ji-hwan-jo-bok-rae-and-more-confirmed-to-join-jung-woo-sung-and-jung-sung-ils-new-historical-action-film" target="_blank">https://www.soompi.com/article/1884222wpp/park-ji-hwan-jo-bok-rae-and-more-confirmed-to-join-jung-woo-sung-and-jung-sung-ils-new-historical-action-film</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Watch: Park Min Young And Yook Sungjae Find Romance In The Workplace In “Nine To Six” Teaser</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> <p>SBS&#8217;s &#8220;Nine to Six&#8221; has released a new teaser! “Nine to Six” is a romance drama starring Park Min Young as Kang Ji Yi, a workaholic who has long put her love life on the back burner due to her intense focus on work. After meeting the thoughtful and warm-hearted Han Seon Woo (Yook Sungjae),&#8230; <a class="more-link" href="https://www.soompi.com/article/1884223wpp/watch-park-min-young-and-yook-sungjae-find-romance-in-the-workplace-in-nine-to-six-teaser">Continue reading <span class="screen-reader-text">Watch: Park Min Young And Yook Sungjae Find Romance In The Workplace In &#8220;Nine To Six&#8221; Teaser</span></a></p>
+<p>The post <a href="https://www.soompi.com/article/1884223wpp/watch-park-min-young-and-yook-sungjae-find-romance-in-the-workplace-in-nine-to-six-teaser">Watch: Park Min Young And Yook Sungjae Find Romance In The Workplace In &#8220;Nine To Six&#8221; Teaser</a> appeared first on <a href="https://www.soompi.com">Soompi</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://www.soompi.com/article/1884223wpp/watch-park-min-young-and-yook-sungjae-find-romance-in-the-workplace-in-nine-to-six-teaser" target="_blank">https://www.soompi.com/article/1884223wpp/watch-park-min-young-and-yook-sungjae-find-romance-in-the-workplace-in-nine-to-six-teaser</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Shin Min Ah, Lee Jin Uk, And Yoo Teo Confirmed For New Romance Drama</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> <p>It’s official: Shin Min Ah, Lee Jin Uk, and Yoo Teo will star in MBC’s upcoming drama “Wed Thurs Fri” (literal title)! The 12-episode drama tells the story of a first love who returns after 12 years, setting the stage for a second chance at love. Set at a restaurant called “Wed Thurs Fri,” which&#8230; <a class="more-link" href="https://www.soompi.com/article/1884217wpp/shin-min-ah-lee-jin-uk-and-yoo-teo-confirmed-for-new-romance-drama">Continue reading <span class="screen-reader-text">Shin Min Ah, Lee Jin Uk, And Yoo Teo Confirmed For New Romance Drama</span></a></p>
+<p>The post <a href="https://www.soompi.com/article/1884217wpp/shin-min-ah-lee-jin-uk-and-yoo-teo-confirmed-for-new-romance-drama">Shin Min Ah, Lee Jin Uk, And Yoo Teo Confirmed For New Romance Drama</a> appeared first on <a href="https://www.soompi.com">Soompi</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://www.soompi.com/article/1884217wpp/shin-min-ah-lee-jin-uk-and-yoo-teo-confirmed-for-new-romance-drama" target="_blank">https://www.soompi.com/article/1884217wpp/shin-min-ah-lee-jin-uk-and-yoo-teo-confirmed-for-new-romance-drama</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Watch: AND2BLE Takes 2nd Win For “French Kissing” On “Show Champion”; Performances By XLOV, EVNNE, And More</h3>
+                <p><strong>날짜:</strong> 2026-11-04</p>
+                <p><strong>요약:</strong> <p>AND2BLE has won their second music show trophy for “French Kissing”! On the November 4 episode of “Show Champion,” the candidates for first place were A2O LITE’s “NEON,” AND2BLE’s “French Kissing,” IVE’s “Looks Can Kill,” XLOV’s “Hush,” and ILLIT&#8217;s “You’re Under Arrest.” AND2BLE ultimately took the win. Congratulations to AND2BLE! Watch their win and encore&#8230; <a class="more-link" href="https://www.soompi.com/article/1884195wpp/watch-and2ble-takes-2nd-win-for-french-kissing-on-show-champion-performances-by-xlov-evnne-and-more">Continue reading <span class="screen-reader-text">Watch: AND2BLE Takes 2nd Win For “French Kissing” On &#8220;Show Champion&#8221;; Performances By XLOV, EVNNE, And More</span></a></p>
+<p>The post <a href="https://www.soompi.com/article/1884195wpp/watch-and2ble-takes-2nd-win-for-french-kissing-on-show-champion-performances-by-xlov-evnne-and-more">Watch: AND2BLE Takes 2nd Win For “French Kissing” On &#8220;Show Champion&#8221;; Performances By XLOV, EVNNE, And More</a> appeared first on <a href="https://www.soompi.com">Soompi</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://www.soompi.com/article/1884195wpp/watch-and2ble-takes-2nd-win-for-french-kissing-on-show-champion-performances-by-xlov-evnne-and-more" target="_blank">https://www.soompi.com/article/1884195wpp/watch-and2ble-takes-2nd-win-for-french-kissing-on-show-champion-performances-by-xlov-evnne-and-more</a></p>
+            </div>
+            <h2 id='india_music_industry'>📰 India Music Industry</h2>
+            <div class="article">
+                <h3>Martin Garrix Announces 10-City India Tour in March 2027</h3>
+                <p><strong>날짜:</strong> 2026-11-04</p>
+                <p><strong>요약:</strong> <figure><img alt="Martin Garrix india tour 2027" class="attachment-medium size-medium wp-post-image" height="360" src="https://rollingstoneindia.com/wp-content/uploads/2026/11/Martin-Garrix-press-image-480x360.jpg" width="480" /></figure>
+<p>The EDM hitmaker will return to India for Holi celebrations, marking his longest run of shows in the country</p>
+<p>The post <a href="https://rollingstoneindia.com/martin-garrix-india-tour-2027-dates-tickets-cities/">Martin Garrix Announces 10-City India Tour in March 2027</a> appeared first on <a href="https://rollingstoneindia.com">Rolling Stone India</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://rollingstoneindia.com/martin-garrix-india-tour-2027-dates-tickets-cities/" target="_blank">https://rollingstoneindia.com/martin-garrix-india-tour-2027-dates-tickets-cities/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Justin Timberlake to Drop a Docuseries Featuring Janet Jackson Discussing Super Bowl Debacle</h3>
+                <p><strong>날짜:</strong> 2026-11-04</p>
+                <p><strong>요약:</strong> <figure><img alt="" class="attachment-medium size-medium wp-post-image" height="320" src="https://rollingstoneindia.com/wp-content/uploads/2026/11/justin-janet-docu-480x320.jpg" width="480" /></figure>
+<p>The four-part Apple TV series will cover the infamous 2004 “wardrobe malfunction” during the halftime performance</p>
+<p>The post <a href="https://rollingstoneindia.com/justin-timberlake-to-drop-a-docuseries-featuring-janet-jackson-discussing-super-bowl-debacle/">Justin Timberlake to Drop a Docuseries Featuring Janet Jackson Discussing Super Bowl Debacle</a> appeared first on <a href="https://rollingstoneindia.com">Rolling Stone India</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://rollingstoneindia.com/justin-timberlake-to-drop-a-docuseries-featuring-janet-jackson-discussing-super-bowl-debacle/" target="_blank">https://rollingstoneindia.com/justin-timberlake-to-drop-a-docuseries-featuring-janet-jackson-discussing-super-bowl-debacle/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Journey Now Say Their Farewell Tour Isn’t the End. What Could That Mean?</h3>
+                <p><strong>날짜:</strong> 2026-11-04</p>
+                <p><strong>요약:</strong> <figure><img alt="" class="attachment-medium size-medium wp-post-image" height="320" src="https://rollingstoneindia.com/wp-content/uploads/2026/11/arnel-pineda-journey-future-480x320.jpg" width="480" /></figure>
+<p>We examine seven possible scenarios for Journey after they wrap up their “Final Frontier” tour, including the chance they hire Steve Perry impersonator Hugo Valenti</p>
+<p>The post <a href="https://rollingstoneindia.com/journey-now-say-their-farewell-tour-isnt-the-end-what-could-that-mean/">Journey Now Say Their Farewell Tour Isn’t the End. What Could That Mean?</a> appeared first on <a href="https://rollingstoneindia.com">Rolling Stone India</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://rollingstoneindia.com/journey-now-say-their-farewell-tour-isnt-the-end-what-could-that-mean/" target="_blank">https://rollingstoneindia.com/journey-now-say-their-farewell-tour-isnt-the-end-what-could-that-mean/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Tame Impala and Jennie’s ‘Dracula’ Saw a Major Streaming Bump Over Halloweekend</h3>
+                <p><strong>날짜:</strong> 2026-11-04</p>
+                <p><strong>요약:</strong> <figure><img alt="" class="attachment-medium size-medium wp-post-image" height="320" src="https://rollingstoneindia.com/wp-content/uploads/2026/11/tame-impala-dracula-480x320.jpg" width="480" /></figure>
+<p>Both the original version and the remix collectively received 16 million global on-demand streams</p>
+<p>The post <a href="https://rollingstoneindia.com/tame-impala-and-jennies-dracula-saw-a-major-streaming-bump-over-halloweekend/">Tame Impala and Jennie’s ‘Dracula’ Saw a Major Streaming Bump Over Halloweekend</a> appeared first on <a href="https://rollingstoneindia.com">Rolling Stone India</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://rollingstoneindia.com/tame-impala-and-jennies-dracula-saw-a-major-streaming-bump-over-halloweekend/" target="_blank">https://rollingstoneindia.com/tame-impala-and-jennies-dracula-saw-a-major-streaming-bump-over-halloweekend/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Dominic Fike Might Be Growing Up, But He’s Angsty as Ever</h3>
+                <p><strong>날짜:</strong> 2026-11-04</p>
+                <p><strong>요약:</strong> <figure><img alt="" class="attachment-medium size-medium wp-post-image" height="320" src="https://rollingstoneindia.com/wp-content/uploads/2026/11/dominic-fike-album-review-480x320.jpg" width="480" /></figure>
+<p>On his new album, How to Quit Smoking, Fike sketches out his anxieties while keeping his music refreshingly catchy</p>
+<p>The post <a href="https://rollingstoneindia.com/dominic-fike-might-be-growing-up-but-hes-angsty-as-ever/">Dominic Fike Might Be Growing Up, But He’s Angsty as Ever</a> appeared first on <a href="https://rollingstoneindia.com">Rolling Stone India</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://rollingstoneindia.com/dominic-fike-might-be-growing-up-but-hes-angsty-as-ever/" target="_blank">https://rollingstoneindia.com/dominic-fike-might-be-growing-up-but-hes-angsty-as-ever/</a></p>
+            </div>
+            
+        <script>
+        const navLinks = document.querySelectorAll('nav a');
+        const sections = [...document.querySelectorAll('main h2')];
+    
+        window.addEventListener('scroll', () => {
+          let current = '';
+          for (const section of sections) {
+            const sectionTop = section.offsetTop - 120;
+            if (pageYOffset >= sectionTop) {
+              current = section.getAttribute('id');
+            }
+          }
+    
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + current) {
+              link.classList.add('active');
+              
+              // 👉 메뉴가 너무 길 경우, 해당 메뉴 자동 스크롤
+              link.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+
+            }
+          });
+        });
+        document.getElementById('scroll-left').addEventListener('click', () => {
+          document.getElementById('category-nav').scrollBy({ left: -200, behavior: 'smooth' });
+        });
+
+        document.getElementById('scroll-right').addEventListener('click', () => {
+          document.getElementById('category-nav').scrollBy({ left: 200, behavior: 'smooth' });
+        });
+      </script>
+</main>
+</body>
+</html>
