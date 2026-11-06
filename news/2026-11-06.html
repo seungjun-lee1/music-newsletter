@@ -1,0 +1,464 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>🎵 오늘의 글로벌 음악 산업 뉴스 (2026-11-06)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Pretendard', sans-serif;
+            background-color: #f9f9f9;
+            color: #222;
+            padding: 40px;
+            max-width: 900px;
+            margin: 0px;
+        }
+        header {
+          max-width: 900px;
+          margin: auto;
+          position: sticky;
+          top: 0;
+          background: #fff;
+          padding: 20px;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+          z-index: 100;
+        }
+        h1 {
+          font-size: 2rem;
+          margin: 0 0 10px;
+          padding: 0;
+        }
+        nav {
+          display: flex;
+          gap: 20px;
+          overflow-x: auto;
+          scrollbar-width: none; /* Firefox */
+          -ms-overflow-style: none;  /* IE, Edge */
+          padding-bottom: 10px;
+        }
+        nav::-webkit-scrollbar {
+          display: none;  /* Chrome, Safari */
+        }
+        nav a {
+          text-decoration: none;
+          color: #444;
+          font-weight: 500;
+          font-size: 0.95rem;
+          padding: 6px 10px;
+          border-radius: 5px;
+          transition: background 0.2s;
+          white-space: nowrap;
+        }
+        nav a.active {
+          background-color: #2b4cb3;
+          color: #fff;
+        }
+        nav a:hover {
+          background-color: #e0e0e0;
+        }
+        main {
+          max-width: 900px;
+          margin: auto;
+          padding: 40px 20px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 50px;
+            color: #2b4cb3;
+        }
+        .article {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+        .article h3 {
+            margin: 0 0 10px;
+            font-size: 1.2rem;
+            color: #111;
+        }
+        .article p {
+            margin: 5px 0;
+            line-height: 1.5;
+        }
+        .article a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .article a:hover {
+            text-decoration: underline;
+        }
+        .nav-wrapper {
+          max-width: 900px;
+          margin: auto;
+          position: relative;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          padding: 10px 0;
+          background: #fff;
+        }
+        
+        .nav-wrapper button {
+          background: #f0f0f0;
+          border: none;
+          border-radius: 6px;
+          padding: 6px 10px;
+          font-size: 16px;
+          cursor: pointer;
+          transition: background 0.2s;
+        }
+        .nav-wrapper button:hover {
+          background: #e0e0e0;
+        }
+        
+        #category-nav {
+          flex: 1;
+          display: flex;
+          overflow-x: auto;
+          gap: 20px;
+          scrollbar-width: none;
+          -ms-overflow-style: none;
+        }
+        #category-nav::-webkit-scrollbar {
+          display: none;
+        }
+        footer {
+            margin-top: 60px;
+            font-size: 0.9rem;
+            color: #999;
+            text-align: center;
+        }
+    /*
+       #sidebar {
+        position: fixed;
+        bottom: 30px;
+        left: 20px;
+        width: 150px;
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 10px 12px;
+        border-radius: 10px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        z-index: 999;
+        transition: top 0.3s ease;
+        font-family: 'Segoe UI', sans-serif;
+        backdrop-filter: blur(3px); /* 흐림 효과 */
+        cursor: move;
+        transition: all 0.3s;
+      }
+
+      #sidebar a {
+        display: block;
+        margin: 8px 0;
+        color: #222;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 12px;
+        transition: color 0.2s;
+      }
+    #toggle-button {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 40px;
+        height: 40px;
+        background-color: #ffffffcc;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        font-size: 20px;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        backdrop-filter: blur(5px);
+      }
+      #sidebar a:hover {
+        color: #007BFF;
+      }
+      }
+
+
+          html {
+            scroll-behavior: smooth;
+          }
+          /* 모바일 숨김 처리 */
+          @media (max-width: 768px) {
+            #sidebar {
+              display: none;
+            }
+            #toggle-button {
+              display: none;
+            }
+          }
+    */
+    </style>
+</head>
+<body>
+
+<nav class="gnb">
+  <a href="/music-newsletter/index.html">🏠 오늘의 뉴스</a>
+  <a href="/music-newsletter/archive.html">📁 일자 별 아카이브</a>
+  <a href="/music-newsletter/category.html">📚 카테고리 별 아카이브</a>
+</nav>
+<style>
+  .gnb {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+    z-index: 1000;
+  }
+  .gnb a {
+    text-decoration: none;
+    color: #2b4cb3;
+  }
+  .gnb a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+    <header>
+    <h1>🎵 오늘의 글로벌 음악 산업 뉴스 (2026-11-06)</h1>
+    <div class="nav-wrapper">
+        <button id="scroll-left">◀</button>
+        <nav id="category-nav">
+          <!--
+            <div id='toggle-button'>☰</div>
+            <div id="sidebar">
+          -->
+    <a href='#general'>General</a><a href='#k-pop_music_industry'>K-pop Music Industry</a><a href='#india_music_industry'>India Music Industry</a><a href='#industry_leadership_changes'>Industry Leadership Changes</a><a href='#financial_developments,_mergers_and_acquisitions'>Financial Developments, Mergers and Acquisitions</a><a href='#legal_and_copyright_matters'>Legal and Copyright Matters</a><a href='#technological_initiatives'>Technological Initiatives</a><a href='#market_insights'>Market Insights</a><a href='#music_industry'>Music Industry</a><a href='#live_entertainment'>Live Entertainment</a>
+        </nav>
+        <button id="scroll-right">▶</button>
+      </div>
+    </header>
+    <main>
+    <h2 id='general'>📰 General</h2>
+            <div class="article">
+                <h3>Musixmatch and DistroKid renew lyrics distribution partnership under multi-year deal</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> Insight Partners, a longtime DistroKid backer, is set to retain a "significant minority stake" in the company, according to the July announcement.
+<p><a href="https://www.musicbusinessworldwide.com/musixmatch-and-distrokid-renew-lyrics-distribution-partnership-under-multi-year-deal/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/musixmatch-and-distrokid-renew-lyrics-distribution-partnership-under-multi-year-deal/" target="_blank">https://www.musicbusinessworldwide.com/musixmatch-and-distrokid-renew-lyrics-distribution-partnership-under-multi-year-deal/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Influence Media Partners completes acquisition of Anthem Entertainment’s catalogs in deal valued at over $600M</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> The deal was struck in collaboration with funds and accounts managed by BlackRock, as confirmed by an announcement today (November 5)
+<p><a href="https://www.musicbusinessworldwide.com/influence-media-partners-completes-acquisition-of-anthem-entertainments-catalogs-in-deal-valued-at-over-600m/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/influence-media-partners-completes-acquisition-of-anthem-entertainments-catalogs-in-deal-valued-at-over-600m/" target="_blank">https://www.musicbusinessworldwide.com/influence-media-partners-completes-acquisition-of-anthem-entertainments-catalogs-in-deal-valued-at-over-600m/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Kroger asks court to dismiss Sony Music’s social media ads lawsuit, citing Supreme Court’s Cox ruling</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> The Kroger Co. and 17 affiliated companies filed the motion on Monday (November 2) in the US District Court for the Central District of California.
+<p><a href="https://www.musicbusinessworldwide.com/kroger-asks-court-to-dismiss-sony-musics-social-media-ads-lawsuit-citing-supreme-courts-cox-ruling/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/kroger-asks-court-to-dismiss-sony-musics-social-media-ads-lawsuit-citing-supreme-courts-cox-ruling/" target="_blank">https://www.musicbusinessworldwide.com/kroger-asks-court-to-dismiss-sony-musics-social-media-ads-lawsuit-citing-supreme-courts-cox-ruling/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Joie Manda’s Encore Recordings says it’s betting on the next generation of global stars from Africa and beyond, as Victony’s ‘SLICK’ crosses 130M streams</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> Los Angeles-headquartered Encore Recordings was launched in November 2021
+<p><a href="https://www.musicbusinessworldwide.com/joie-mandas-encore-recordings-says-its-betting-on-the-next-generation-of-global-stars-from-africa-and-beyond-as-victonys-slick-crosses-130m-streams/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/joie-mandas-encore-recordings-says-its-betting-on-the-next-generation-of-global-stars-from-africa-and-beyond-as-victonys-slick-crosses-130m-streams/" target="_blank">https://www.musicbusinessworldwide.com/joie-mandas-encore-recordings-says-its-betting-on-the-next-generation-of-global-stars-from-africa-and-beyond-as-victonys-slick-crosses-130m-streams/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Skiddle secures first external investment in 25 years as Soho Square Capital takes minority stake</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> Skiddle said the investment will support an existing five-year growth plan spanning lifestyle events, technology, marketing, and European expansion.
+<p><a href="https://www.musicbusinessworldwide.com/skiddle-secures-first-external-investment-in-25-years-as-soho-square-capital-takes-minority-stake/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/skiddle-secures-first-external-investment-in-25-years-as-soho-square-capital-takes-minority-stake/" target="_blank">https://www.musicbusinessworldwide.com/skiddle-secures-first-external-investment-in-25-years-as-soho-square-capital-takes-minority-stake/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>BTS ‘SWIM’ copyright lawsuit against HYBE dropped by songwriters less than four months after filing</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> Dismissal comes less than four months after the songwriters filed their complaint on July 8
+<p><a href="https://www.musicbusinessworldwide.com/bts-swim-copyright-lawsuit-against-hybe-dropped-by-songwriters-less-than-four-months-after-filing/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/bts-swim-copyright-lawsuit-against-hybe-dropped-by-songwriters-less-than-four-months-after-filing/" target="_blank">https://www.musicbusinessworldwide.com/bts-swim-copyright-lawsuit-against-hybe-dropped-by-songwriters-less-than-four-months-after-filing/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>B2B music streamer Soundtrack inks SESAC deal, estimates unlicensed music in US businesses costs the industry $1.4B a year</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> Soundtrack now licensed by all four major US PROs
+<p><a href="https://www.musicbusinessworldwide.com/b2b-music-streamer-soundtrack-inks-sesac-deal-estimates-unlicensed-music-in-us-businesses-costs-the-industry-1-4b-a-year/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/b2b-music-streamer-soundtrack-inks-sesac-deal-estimates-unlicensed-music-in-us-businesses-costs-the-industry-1-4b-a-year/" target="_blank">https://www.musicbusinessworldwide.com/b2b-music-streamer-soundtrack-inks-sesac-deal-estimates-unlicensed-music-in-us-businesses-costs-the-industry-1-4b-a-year/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Sony generated a record $3.15B from recorded music and publishing in calendar Q3 2026, up 8.9% YoY</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> Recorded music streaming revenues hit USD $1.52 billion, up 7.4% YoY
+<p><a href="https://www.musicbusinessworldwide.com/sony-generated-a-record-3-15b-from-recorded-music-and-publishing-in-calendar-q3-2026-up-9-yoy/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/sony-generated-a-record-3-15b-from-recorded-music-and-publishing-in-calendar-q3-2026-up-9-yoy/" target="_blank">https://www.musicbusinessworldwide.com/sony-generated-a-record-3-15b-from-recorded-music-and-publishing-in-calendar-q3-2026-up-9-yoy/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Harry Styles residency boosts MSG Entertainment as revenues rise 37% to $217M in calendar Q3</h3>
+                <p><strong>날짜:</strong> 2026-11-04</p>
+                <p><strong>요약:</strong> Plus: what MSG Entertainment’s CFO said on the earnings call about bookings, residencies, and demand
+<p><a href="https://www.musicbusinessworldwide.com/harry-styles-run-pushes-msg-entertainment-to-record-concert-quarter-at-madison-square-garden-as-revenues-rise-37-to-217m-in-calendar-q3/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/harry-styles-run-pushes-msg-entertainment-to-record-concert-quarter-at-madison-square-garden-as-revenues-rise-37-to-217m-in-calendar-q3/" target="_blank">https://www.musicbusinessworldwide.com/harry-styles-run-pushes-msg-entertainment-to-record-concert-quarter-at-madison-square-garden-as-revenues-rise-37-to-217m-in-calendar-q3/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>HYBE to transfer its entire $285.6M stake in crypto firm Dunamu to US subsidiary HYBE Americas</h3>
+                <p><strong>날짜:</strong> 2026-11-04</p>
+                <p><strong>요약:</strong> The transfer is scheduled to complete on November 30.
+<p><a href="https://www.musicbusinessworldwide.com/hybe-to-transfer-its-entire-285-6m-stake-in-crypto-firm-dunamu-to-us-subsidiary-hybe-americas/" rel="nofollow">Source</a></p></p>
+                <p><strong>링크:</strong> <a href="https://www.musicbusinessworldwide.com/hybe-to-transfer-its-entire-285-6m-stake-in-crypto-firm-dunamu-to-us-subsidiary-hybe-americas/" target="_blank">https://www.musicbusinessworldwide.com/hybe-to-transfer-its-entire-285-6m-stake-in-crypto-firm-dunamu-to-us-subsidiary-hybe-americas/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Yailin La Más Viral Teases Her New Album & What’s Coming in 2027 | Premios Heat 2026</h3>
+                <p><strong>날짜:</strong> 2026-11-06</p>
+                <p><strong>요약:</strong> Yailin La Más Viral chatted with Billboard’s Ingrid Fajardo &#38; Jessica Roiz on the red carpet of Premios Heat 2026.</p>
+                <p><strong>링크:</strong> <a href="https://www.billboard.com/video/yailin-la-mas-viral-teases-her-new-album-whats-coming-2027/" target="_blank">https://www.billboard.com/video/yailin-la-mas-viral-teases-her-new-album-whats-coming-2027/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Gloria Trevia On Creating “INTENSAMENTE” With Her Kids & Performing With Them | Premios Heat 2026</h3>
+                <p><strong>날짜:</strong> 2026-11-06</p>
+                <p><strong>요약:</strong> Gloria Trevi chatted with Billboard’s Ingrid Fajardo &#38; Jessica Roiz on the red carpet of Premios Heat 2026.</p>
+                <p><strong>링크:</strong> <a href="https://www.billboard.com/video/gloria-trevia-on-creating-intensamente-her-kids-performing/" target="_blank">https://www.billboard.com/video/gloria-trevia-on-creating-intensamente-her-kids-performing/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Amy Winehouse’s ‘Back to Black’ Reissue Sparks Top 10 Chart Return</h3>
+                <p><strong>날짜:</strong> 2026-11-06</p>
+                <p><strong>요약:</strong> The late singer’s sophomore set makes a top 10 splash on four charts.</p>
+                <p><strong>링크:</strong> <a href="https://www.billboard.com/music/chart-beat/amy-winehouse-back-to-black-reissue-top-10-charts-1236375531/" target="_blank">https://www.billboard.com/music/chart-beat/amy-winehouse-back-to-black-reissue-top-10-charts-1236375531/</a></p>
+            </div>
+            <h2 id='k-pop_music_industry'>📰 K-pop Music Industry</h2>
+            <div class="article">
+                <h3>Actor Do Sang Woo And Model Park Ji Hye To Tie The Knot</h3>
+                <p><strong>날짜:</strong> 2026-11-06</p>
+                <p><strong>요약:</strong> <p>Actor Do Sang Woo and model Park Ji Hye are getting married! On November 6, industry insiders reported that the two will tie the knot in February of next year. In response to the report, Do Sang Woo’s agency J-Wide Company stated through an official announcement, &#8220;Do Sang Woo has met a precious partner to&#8230; <a class="more-link" href="https://www.soompi.com/article/1884527wpp/actor-do-sang-woo-and-model-park-ji-hye-to-tie-the-knot">Continue reading <span class="screen-reader-text">Actor Do Sang Woo And Model Park Ji Hye To Tie The Knot</span></a></p>
+<p>The post <a href="https://www.soompi.com/article/1884527wpp/actor-do-sang-woo-and-model-park-ji-hye-to-tie-the-knot">Actor Do Sang Woo And Model Park Ji Hye To Tie The Knot</a> appeared first on <a href="https://www.soompi.com">Soompi</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://www.soompi.com/article/1884527wpp/actor-do-sang-woo-and-model-park-ji-hye-to-tie-the-knot" target="_blank">https://www.soompi.com/article/1884527wpp/actor-do-sang-woo-and-model-park-ji-hye-to-tie-the-knot</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Listen: JYP Entertainment Teases Launch Of New Group oftheblue</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> <p>JYP Entertainment is gearing up to debut a new group! On November 6, a website was launched for a new male group named oftheblue with two teaser images and the text, &#8220;Music Begins Everywhere.&#8221; The website features an image hinting that the group may be four members and includes an instrumental preview of a song.&#8230; <a class="more-link" href="https://www.soompi.com/article/1884508wpp/listen-jyp-entertainment-teases-launch-of-new-group-oftheblue">Continue reading <span class="screen-reader-text">Listen: JYP Entertainment Teases Launch Of New Group oftheblue</span></a></p>
+<p>The post <a href="https://www.soompi.com/article/1884508wpp/listen-jyp-entertainment-teases-launch-of-new-group-oftheblue">Listen: JYP Entertainment Teases Launch Of New Group oftheblue</a> appeared first on <a href="https://www.soompi.com">Soompi</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://www.soompi.com/article/1884508wpp/listen-jyp-entertainment-teases-launch-of-new-group-oftheblue" target="_blank">https://www.soompi.com/article/1884508wpp/listen-jyp-entertainment-teases-launch-of-new-group-oftheblue</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>MONSTA X’s Shownu To Sit Out Upcoming Schedules Due To Herniated Disc</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> <p>MONSTA X’s Shownu will be sitting out upcoming scheduled activities after being diagnosed with a herniated disc. On November 5, STARSHIP Entertainment announced that Shownu recently visited the hospital due to back pain and was diagnosed with a herniated disc. As a result, he will be unable to attend the group’s upcoming fan event in&#8230; <a class="more-link" href="https://www.soompi.com/article/1884497wpp/monsta-xs-shownu-to-sit-out-upcoming-schedules-due-to-herniated-disc">Continue reading <span class="screen-reader-text">MONSTA X’s Shownu To Sit Out Upcoming Schedules Due To Herniated Disc</span></a></p>
+<p>The post <a href="https://www.soompi.com/article/1884497wpp/monsta-xs-shownu-to-sit-out-upcoming-schedules-due-to-herniated-disc">MONSTA X’s Shownu To Sit Out Upcoming Schedules Due To Herniated Disc</a> appeared first on <a href="https://www.soompi.com">Soompi</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://www.soompi.com/article/1884497wpp/monsta-xs-shownu-to-sit-out-upcoming-schedules-due-to-herniated-disc" target="_blank">https://www.soompi.com/article/1884497wpp/monsta-xs-shownu-to-sit-out-upcoming-schedules-due-to-herniated-disc</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Park Bo Gum, Lee Sang Yi, And Ko Kyung Pyo Dish On Their New Skills And Teamwork In “The Village Barber 2”</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> <p>The cast of “The Village Barber 2” has shared heartfelt messages ahead of the new season! “The Village Barber 2” is a variety show in which Park Bo Gum runs a barbershop in a small seaside village together with his close friends Lee Sang Yi and Ko Kyung Pyo. The show has unveiled its main&#8230; <a class="more-link" href="https://www.soompi.com/article/1884490wpp/park-bo-gum-lee-sang-yi-and-ko-kyung-pyo-dish-on-their-new-skills-and-teamwork-in-the-village-barber-2">Continue reading <span class="screen-reader-text">Park Bo Gum, Lee Sang Yi, And Ko Kyung Pyo Dish On Their New Skills And Teamwork In “The Village Barber 2”</span></a></p>
+<p>The post <a href="https://www.soompi.com/article/1884490wpp/park-bo-gum-lee-sang-yi-and-ko-kyung-pyo-dish-on-their-new-skills-and-teamwork-in-the-village-barber-2">Park Bo Gum, Lee Sang Yi, And Ko Kyung Pyo Dish On Their New Skills And Teamwork In “The Village Barber 2”</a> appeared first on <a href="https://www.soompi.com">Soompi</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://www.soompi.com/article/1884490wpp/park-bo-gum-lee-sang-yi-and-ko-kyung-pyo-dish-on-their-new-skills-and-teamwork-in-the-village-barber-2" target="_blank">https://www.soompi.com/article/1884490wpp/park-bo-gum-lee-sang-yi-and-ko-kyung-pyo-dish-on-their-new-skills-and-teamwork-in-the-village-barber-2</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Yoo Yeon Seok Faces Another Shocking Arrest In “The Perfect Lie”</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> <p>Yoo Yeon Seok finds himself being taken into police custody once again in the upcoming episode of MBC’s “The Perfect Lie”! Helmed by “You and Everything Else” director Jo Young Min, “The Perfect Lie” is a psychological thriller in which a man and a woman offer completely opposite accounts of the same memory, clashing fiercely&#8230; <a class="more-link" href="https://www.soompi.com/article/1884482wpp/yoo-yeon-seok-faces-another-shocking-arrest-in-the-perfect-lie">Continue reading <span class="screen-reader-text">Yoo Yeon Seok Faces Another Shocking Arrest In “The Perfect Lie”</span></a></p>
+<p>The post <a href="https://www.soompi.com/article/1884482wpp/yoo-yeon-seok-faces-another-shocking-arrest-in-the-perfect-lie">Yoo Yeon Seok Faces Another Shocking Arrest In “The Perfect Lie”</a> appeared first on <a href="https://www.soompi.com">Soompi</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://www.soompi.com/article/1884482wpp/yoo-yeon-seok-faces-another-shocking-arrest-in-the-perfect-lie" target="_blank">https://www.soompi.com/article/1884482wpp/yoo-yeon-seok-faces-another-shocking-arrest-in-the-perfect-lie</a></p>
+            </div>
+            <h2 id='india_music_industry'>📰 India Music Industry</h2>
+            <div class="article">
+                <h3>NYFF 2026: On Cinema that Explores Artistic and Familial Legacy</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> <figure><img alt="CameronWinterAtCarnegieHall-NYFF64_CourtesyJanus Films and Criterion" class="attachment-medium size-medium wp-post-image" height="320" src="https://rollingstoneindia.com/wp-content/uploads/2026/11/CameronWinterAtCarnegieHall-NYFF64_CourtesyJanus-Films-and-Criterion-480x320.jpg" width="480" /></figure>
+<p>Cameron Winter is to indie rock what Virginia Woolf was to the modern novel, and other thoughts on legacy from the 64th New York Film Festival.</p>
+<p>The post <a href="https://rollingstoneindia.com/nyff-2026-review-cameron-winter-legacy-films-cinema/">NYFF 2026: On Cinema that Explores Artistic and Familial Legacy </a> appeared first on <a href="https://rollingstoneindia.com">Rolling Stone India</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://rollingstoneindia.com/nyff-2026-review-cameron-winter-legacy-films-cinema/" target="_blank">https://rollingstoneindia.com/nyff-2026-review-cameron-winter-legacy-films-cinema/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Bob Dylan Meets With Pope Leo XIV in a Private Audience</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> <figure><img alt="" class="attachment-medium size-medium wp-post-image" height="320" src="https://rollingstoneindia.com/wp-content/uploads/2026/11/bob-dylan-meets-pope-480x320.jpg" width="480" /></figure>
+<p>His Holiness quoted the songwriter’s unpublished song “Go Away You Bomb” in his book Disarmed and Disarming: Peace Is a Gift</p>
+<p>The post <a href="https://rollingstoneindia.com/bob-dylan-meets-with-pope-leo-xiv-in-a-private-audience/">Bob Dylan Meets With Pope Leo XIV in a Private Audience</a> appeared first on <a href="https://rollingstoneindia.com">Rolling Stone India</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://rollingstoneindia.com/bob-dylan-meets-with-pope-leo-xiv-in-a-private-audience/" target="_blank">https://rollingstoneindia.com/bob-dylan-meets-with-pope-leo-xiv-in-a-private-audience/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>‘Possible Love’ Is a Tragedy, a Timebomb — and the Best Movie of 2026</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> <figure><img alt="" class="attachment-medium size-medium wp-post-image" height="320" src="https://rollingstoneindia.com/wp-content/uploads/2026/11/Possible-Love-Lead-480x320.jpg" width="480" /></figure>
+<p>Lee Chang-dong's long-awaited follow-up to 'Burning' tackles everything from class divisions to documentary ethics. It's a close-to-perfect film</p>
+<p>The post <a href="https://rollingstoneindia.com/possible-love-is-a-tragedy-a-timebomb-and-the-best-movie-of-2026/">‘Possible Love’ Is a Tragedy, a Timebomb — and the Best Movie of 2026</a> appeared first on <a href="https://rollingstoneindia.com">Rolling Stone India</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://rollingstoneindia.com/possible-love-is-a-tragedy-a-timebomb-and-the-best-movie-of-2026/" target="_blank">https://rollingstoneindia.com/possible-love-is-a-tragedy-a-timebomb-and-the-best-movie-of-2026/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Cynthia Erivo to Play Tupac Shakur’s Mother in Snoop Dogg Biopic</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> <figure><img alt="" class="attachment-medium size-medium wp-post-image" height="320" src="https://rollingstoneindia.com/wp-content/uploads/2026/11/Cynthia-Erivo-to-Play-480x320.jpg" width="480" /></figure>
+<p>The Craig Brewer-directed film is expected to arrive in theaters in August 2027</p>
+<p>The post <a href="https://rollingstoneindia.com/cynthia-erivo-to-play-tupac-shakurs-mother-in-snoop-dogg-biopic/">Cynthia Erivo to Play Tupac Shakur’s Mother in Snoop Dogg Biopic</a> appeared first on <a href="https://rollingstoneindia.com">Rolling Stone India</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://rollingstoneindia.com/cynthia-erivo-to-play-tupac-shakurs-mother-in-snoop-dogg-biopic/" target="_blank">https://rollingstoneindia.com/cynthia-erivo-to-play-tupac-shakurs-mother-in-snoop-dogg-biopic/</a></p>
+            </div>
+            
+            <div class="article">
+                <h3>Tinto Brass, Sensationalist ‘Caligula’ Director Who Wanted Name Removed From Film, Dead at 93</h3>
+                <p><strong>날짜:</strong> 2026-11-05</p>
+                <p><strong>요약:</strong> <figure><img alt="" class="attachment-medium size-medium wp-post-image" height="320" src="https://rollingstoneindia.com/wp-content/uploads/2026/11/Tinto-Brass-obit-480x320.jpg" width="480" /></figure>
+<p>Filmmaker had suffered a reported cerebral hemorrhage in 2010</p>
+<p>The post <a href="https://rollingstoneindia.com/tinto-brass-sensationalist-caligula-director-who-wanted-name-removed-from-film-dead-at-93/">Tinto Brass, Sensationalist ‘Caligula’ Director Who Wanted Name Removed From Film, Dead at 93</a> appeared first on <a href="https://rollingstoneindia.com">Rolling Stone India</a>.</p></p>
+                <p><strong>링크:</strong> <a href="https://rollingstoneindia.com/tinto-brass-sensationalist-caligula-director-who-wanted-name-removed-from-film-dead-at-93/" target="_blank">https://rollingstoneindia.com/tinto-brass-sensationalist-caligula-director-who-wanted-name-removed-from-film-dead-at-93/</a></p>
+            </div>
+            
+        <script>
+        const navLinks = document.querySelectorAll('nav a');
+        const sections = [...document.querySelectorAll('main h2')];
+    
+        window.addEventListener('scroll', () => {
+          let current = '';
+          for (const section of sections) {
+            const sectionTop = section.offsetTop - 120;
+            if (pageYOffset >= sectionTop) {
+              current = section.getAttribute('id');
+            }
+          }
+    
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + current) {
+              link.classList.add('active');
+              
+              // 👉 메뉴가 너무 길 경우, 해당 메뉴 자동 스크롤
+              link.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+
+            }
+          });
+        });
+        document.getElementById('scroll-left').addEventListener('click', () => {
+          document.getElementById('category-nav').scrollBy({ left: -200, behavior: 'smooth' });
+        });
+
+        document.getElementById('scroll-right').addEventListener('click', () => {
+          document.getElementById('category-nav').scrollBy({ left: 200, behavior: 'smooth' });
+        });
+      </script>
+</main>
+</body>
+</html>
